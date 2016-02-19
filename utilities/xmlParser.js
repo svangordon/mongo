@@ -1,41 +1,41 @@
 var request = require('request')
-var parseString = require('xml2js').parseString;
-var xml = "<root>Hello xml2js!</root>"
+var xml2js = require('xml2js')
+var fs = require('fs')
+var util = require('util')
+
+// Setup parser \\
+var parser = new xml2js.Parser({explicitArray : false})
 
 // connect to server
 var mongoose = require('mongoose')
 mongoose.connect('mongodb://localhost/wafflehouse')
+var dishes = require('../models/dishesSchema')
+
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'))
 db.once('open', function() {
 
-	// Establish schemas \\
-	var dishSchema = mongoose.Schema({
-		name : String,
-		price : String,
-		desc : String,
-		cal : Number
-	})
 
-	var Dish = mongoose.model('Dish', dishSchema);
-
-
-	// console.log
+	console.log('db open')
 
 	// Make http request \\
 	request('http://www.w3schools.com/xml/simple.xml', function (error, response, body) {
 	    if (!error && response.statusCode == 200) {
-	        parseString(body, function (err, result) {
-	        	if (err) throw err
-	        	var food = result.breakfast_menu.food
-	        	// console.log(db)
-	        	var peas = new Dish({ name : peas })
-	        	// db.collection('plates').drop()
-	        	// db.collection('plates').insert(food);
-	        	// db.collection('plates').save(function (err, fluffy) {
-	        		// if (err) return console.error(err)
+	        parser.parseString(body, function (err, result) {
+        		if (err) throw err
+        		// console.log(util.inspect(result, false, null))
+	        	var plates = result.breakfast_menu.food
+	        	plates.forEach(function(cur,i,arr) {
+	        		var newPlate = new dishes(cur);
+	        		newPlate.save(function(err,doc) {
+	        			if (err) throw err
+	        			console.log(newPlate.name + ' is saved')
+	        		})
+	        	})
+	        	// dishes.insert(plates, function (err, docs) {
+	        	// 	if (err) throw err
+	        	// 	console.info('%d potatoes were successfully stored.', docs.length)
 	        	// })
-	        	// console.log(food)
 	        })
 	    }
 	});

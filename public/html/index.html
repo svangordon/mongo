@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
 	<title></title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular.js"></script>
+	<script type="text/javascript" src="angular/modules/app.js"></script>
+	<script type="text/javascript" src="angular/factories/dishesFactory.js"></script>
+	<script type="text/javascript" src="angular/controllers/dishesController.js"></script>
 </head>
 <body>
 
-content
+	<div ng-controller="dishesController">
+		<table  class="dishes-table">
+			<tr>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Price</th>
+				<th>Calories</th>
+			</tr>
+			<tr ng-repeat="dish in dishes">
+				<td ng-bind="dish.name"></td>
+				<td ng-bind="dish.description"></td>
+				<td ng-bind="dish.price"></td>
+				<td ng-bind="dish.calories"></td>
+			</tr>
+		</table>
+	</div>
 
 </body>
 </html>
