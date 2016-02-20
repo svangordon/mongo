@@ -9,10 +9,7 @@ mongoose.connect('mongodb://localhost:27017/wafflehouse')
 var express = require('express')
   , app = express()
 
-var db = require('./db')
-
-app.engine('jade', require('jade').__express)
-app.set('view engine', 'jade')
+// var db = require('./db')
 
 // Application Configuration \\
 app.use(bodyParser.json());

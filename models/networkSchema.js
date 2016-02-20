@@ -6,6 +6,7 @@ var Schema = mongoose.Schema;
 // create a schema
 var networkSchema = new Schema({
   name: String,
+  callSign: String,
   guideUrl : String,
   streamUrl : String,
   color : String,

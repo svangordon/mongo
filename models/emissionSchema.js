@@ -6,7 +6,7 @@ var Schema = mongoose.Schema;
 // create a schema
 var emissionSchema = new Schema({
   title: String,
-  network: ObjectId,
+  network: String,
   start : 'Moment',
   end : 'Moment',
   desc : String
