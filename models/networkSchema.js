@@ -3,15 +3,15 @@ var mongoose = require('mongoose');
 require('mongoose-moment')(mongoose);
 var Schema = mongoose.Schema;
 
+
 // create a schema
 var networkSchema = new Schema({
   name: String,
   callSign: String,
   guideUrl : String,
   streamUrl : String,
+  logo : String,
   color : String,
-  desc : String,
-  logoUrl : String
 });
 
 // the schema is useless so far

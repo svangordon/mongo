@@ -1,25 +1,18 @@
 var express = require('express')
   , router = express.Router()
 
-var db = require('../db')
+var networks = require('../models/networkSchema.js')
 
 router.get('/all', function(req, res) {
-  var collection = db.get().collection('networks')
 
-  collection.find().toArray(function(err, docs) {
-    if (err) throw err
-    res.render('networks', {networks: docs})
-  })
+	  networks.find( {} ,function(err, docs) {
+			if (err) throw err
+	    	res.send(docs)
+	  	})
 })
 
-router.get('/:network', function(req, res) {
-  var collection = db.get().collection('networks')
-  var networkName = req.params.network
-
-  collection.find( { name : networkName } ).toArray( function (err, docs) {
-  	if (err) throw err
-    res.render('networks', {networks: docs})
-  })
+router.get('/', function (req, res) {
+	
 })
 
 module.exports = router

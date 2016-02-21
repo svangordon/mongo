@@ -1,0 +1,72 @@
+.current-time-marker {
+  transition: 0.5s height;
+}
+.slide-left-1-add {
+  transition: 0.5s all;
+  transform: translateX(-120px);
+}
+.slide-left-1-add-active {
+  transform: translateX(0px);
+}
+.slide-left-2-add {
+  transition: 0.5s all;
+  transform: translateX(-120px);
+}
+.slide-left-2-add-active {
+  transform: translateX(0px);
+}
+.slide-left-1.ng-leave,
+.slide-left-2.ng-leave {
+  transition: 0.5s all;
+  transform: translateX(-120px);
+}
+.slide-left-1.ng-leave-active,
+.slide-left-2.ng-leave-active {
+  transform: translateX(0px);
+}
+.slide-left-1.ng-enter,
+.slide-left-2.ng-enter {
+  position: relative;
+  transform: translateX(-120px);
+  transition: 0.5s all;
+}
+.slide-left-1.ng-enter-active,
+.slide-left-2.ng-enter-active {
+  transform: translateX(0px);
+}
+.slide-right-1-add,
+.slide-right-2-add {
+  transition: 0.5s all;
+  transform: translateX(120px);
+}
+.slide-right-1-add-active,
+.slide-right-2-add-active {
+  transform: translateX(0px);
+}
+.slide-right-1.ng-leave,
+.slide-right-2.ng-leave {
+  transition: 0.5s all;
+  transform: translateX(120px);
+}
+.slide-right-1.ng-leave-active,
+.slide-right-2.ng-leave-active {
+  transform: translateX(0px);
+}
+.emission-row.ng-enter,
+.network-block.ng-enter {
+  transition: 0.5s all;
+  height: 0;
+}
+.emission-row.ng-enter-active,
+.network-block.ng-enter-active {
+  height: 64px;
+}
+.emission-row.ng-leave,
+.network-block.ng-leave {
+  transition: 0.5s all;
+  height: 64px;
+}
+.emission-row.ng-leave-active,
+.network-block.ng-leave-active {
+  height: 0;
+}

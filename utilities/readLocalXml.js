@@ -9,9 +9,9 @@ var moment = require('moment')
 var parser = new xml2js.Parser({explicitArray : false})
 
 // Setup mongo \\
-mongoose.connect('mongodb://localhost/wafflehouse')
+mongoose.connect('mongodb://localhost/guignol')
 var db = mongoose.connection;
-var Emissions = require('../models/emissionSchema')
+var Days = require('../models/daySchema')
 
 // Read File \\
 fs.readFile('./data/bbc1.xml', 'utf8', function (err, data) {
@@ -22,12 +22,13 @@ fs.readFile('./data/bbc1.xml', 'utf8', function (err, data) {
 		// Set some of the params \\
 			// results = results.channel;
 			var date = results.channel.$.date.split('/');
-			var networkId = results.channel.$.id
+			var networkCallsign = results.channel.$.id
 			var day = parseInt(date[0]) - 1
 			var month = parseInt(date[1]) -1
 			var year = parseInt(date[2])
 			// console.log(results.channel.$.date)
-			var dayCutoff = moment.utc([year, month, day, 06, 00]) // so anything before this needs to be moved to the next day
+			var dayCutoff = moment.utc([year, month, day, 06, 01]) // so anything before this needs to be moved to the next day
+			var broadcastDay = moment.utc([year,month,day])
 
 			var programmes = results.channel.programme;
 
@@ -41,14 +42,9 @@ fs.readFile('./data/bbc1.xml', 'utf8', function (err, data) {
 				return time.isBefore(dayCutoff) ? time.add(1,'d') : time
 			}
 
-			// This doesn't work at all -- i'm trying to get the _id of the network. I think that this db access is async, so that the following code creating all of the objects fires before it can access the db and return something -- but i'm not sure how to make it sync
-			// var networkId;
-			// db.collection('networks').find({name : 'BBC 1'}).toArray(function(err,data) {
-			// 	networkId = data[0]._id
-			// 	console.log(networkId)
-			// })
+		// Iterate over emissions and add them all to an array
+			var emissionsArray = [];
 
-		// Iterate over emissions and add them all to the DB
 			programmes.forEach(function(cur) {
 				var startHour = hrMin(cur.start)[0]
 				var startMinute = hrMin(cur.start)[1]
@@ -59,17 +55,25 @@ fs.readFile('./data/bbc1.xml', 'utf8', function (err, data) {
 				// console.log(cur.start, startTime.format())
 				var out = {
 					title : cur.title,
-					network : networkId,
+					network : networkCallsign,
 					start : startTime,
 					end : endTime,
 					desc : cur.desc
 				}
-				var newEmission = new Emissions(out);
-				console.log(out.network)
-				// newEmission.save(function(err,data) {
-				// 	if (err) throw err
-				// 	console.log('save successful')
-				// })
+				emissionsArray.push(out)
+			})
+			var newDay = {
+				networkCallsign : networkCallsign,
+				date : broadcastDay,
+				emissions : emissionsArray
+			}
+			var newDay = new Days(newDay);
+			newDay.save(function(err, docs) {
+				if (err) {
+					console.log(emissions)
+					// throw err
+				}
+				console.log('saved')
 			})
 	})
 })

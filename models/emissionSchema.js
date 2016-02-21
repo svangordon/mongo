@@ -1,6 +1,6 @@
 // grab the things we need
 var mongoose = require('mongoose');
-require('mongoose-moment')(mongoose);
+// require('mongoose-moment')(mongoose);
 var Schema = mongoose.Schema;
 
 // create a schema
@@ -11,6 +11,10 @@ var emissionSchema = new Schema({
   end : 'Moment',
   desc : String
 });
+
+emissionSchema.methods.visibleMinutes = function (viewStart, viewEnd) {
+	return start
+}
 
 // the schema is useless so far
 // we need to create a model using it
