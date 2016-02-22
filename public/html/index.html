@@ -102,8 +102,8 @@
 			</div>
 			<div class="guide-view col-xs-10 viewport" ng-controller="emissionsController" ng-style="{'height' : (activeNetworksNumber() + 1) * 64 + 'px'}">
 				<div class="emission-row" ng-repeat="channel in channels"
-					ng-style="{'background-color' : network.color}">
-						<div class="emission-block pull-left" ng-repeat="emission in channel.emissions" ng-style="{width : absBlockWidth(emission.start, emission.end) + 'px'}">
+					ng-style="{'background-color' : colorTable[channel.callsign], 'name' : channel.networkCallsign}">
+						<div class="emission-block pull-left" ng-repeat="emission in channel.emissions | inViewFilter : schedule " ng-style="{'background-color' : channel.color , width : relBlockWidth(emission.start, emission.end) + 'px'}" ng-mousemove="hover.setActive(emission)" ng-class="{'active-cell': hover.testActive(emission)}">
 							<div ng-bind="emission.title"></div>
 						</div>
 					<!-- <div ng-repeat="emission in network.emissions | inViewFilter : schedule" class="emission-block pull-left" ng-class="{'active-cell': hover.testActive(emission) , 'slide-left-1' : slideState.val === 0, 'slide-left-2' : slideState.val === 1, 'slide-right-1' : slideState.val === 2, 'slide-right-2' : slideState.val === 3}" ng-style="{'width' : emission.getDisplayWidth() + 'px', 'background-color' : network.color, 'transform' : 'translateX('+emisson.getDisplayWidth()+'px'}" ng-click="log(document.getElementsByClassName('active-cell'))" ng-mouseenter="hover.setActive(emission); log('hi')" ng-mousemove="log()" ng-bind="emission.title"> -->

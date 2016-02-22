@@ -1,15 +1,15 @@
 [
 	{
-		"displayName" : "BBC 1",
-		"callSign" : "bbc1",
+		"name" : "BBC 1",
+		"callsign" : "bbc1",
 		"guideUrl" : "http://www.bbc.co.uk/bbcone",
 		"streamUrl" : "http://www.bbc.co.uk/iplayer/live/bbcone",
 		"logo" : "http://static.bbci.co.uk/tviplayer/1.92.0/img/logos/svg/bbcone.svg",
 		"color" : "#ea2923"
 	},
 	{
-		"displayName" : "BBC 2",
-		"callSign" : "bbc2",
+		"name" : "BBC 2",
+		"callsign" : "bbc2",
 		"guideUrl" : "http://www.bbc.co.uk/bbcone",
 		"streamUrl" : "http://www.bbc.co.uk/iplayer/live/bbcone",
 		"logo" : "http://static.bbci.co.uk/tviplayer/1.92.0/img/logos/svg/bbcone.svg",

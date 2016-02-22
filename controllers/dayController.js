@@ -18,10 +18,12 @@ router.get('/', function(req, res) {
   //   selectorString = 
   // }
   
-  console.log(req.query)
+  // console.log(req.query)
   broadcastDay = req.query.day.split('-');
-  broadcastDay[2] = parseInt(broadcastDay[2]) - 1; // Moment dates are offset by one (but not months?) so this means the query string can be in a more human-readable format
+  broadcastDay[2] = parseInt(broadcastDay[2])
+  // console.log(broadcastDay)
   var broadcastDay = moment.utc(broadcastDay.join('-')).valueOf() // Should be a unix timestamp. maybe that's a shit way to do it, but i'll find that out as i go i guess
+  // console.log(moment.utc(broadcastDay).format())
   var queryObj = {
     date : broadcastDay,
     networkCallsign : {$in : []}
@@ -31,7 +33,7 @@ router.get('/', function(req, res) {
   } else {
     queryObj.networkCallsign.$in = req.query.networks.split(',')
   }
-  
+  // console.log(queryObj)
   days.find( queryObj, function (err, docs) {
     res.send(docs)
   } )

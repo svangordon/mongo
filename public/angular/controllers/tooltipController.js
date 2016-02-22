@@ -1,5 +1,5 @@
 angular.module('app')
-	.controller('tooltipController', ['$scope', 'hoverFactory', function (scope, hover) {
+	.controller('tooltipController', ['$scope', 'hoverFactory', 'viewFactory', function (scope, hover, view) {
 		var activeElement = $('div.active-cell')
 		scope.hover = hover.activeCell;
 		scope.verticalOffset = 100;
@@ -17,15 +17,17 @@ angular.module('app')
 		}
 
 		scope.logActiveOnExit = function () {
-			console.log($( 'div.active-cell emission-block-content' ))
+			// console.log($( 'div.active-cell emission-block-content' ))
 		}
 
 		scope.getTop = function () {
+			
 			// console.log($( 'div.active-cell' ).length !== 0 ?
 			// 	$( 'div.active-cell' ).position().top : 0)
 			// console.log($( 'div.active-cell' ))
 			if ($( 'div.active-cell' ).length !== 0) {
 				scope.tooltipTop = Math.ceil($( 'div.active-cell' ).position().top + scope.verticalOffset)
+				// console.log(scope.tooltipTop)
 			} else {
 				// console.log('active-cell is undefined')
 			}
@@ -42,7 +44,8 @@ angular.module('app')
 		}
 
 		scope.hoverHandler = function (offsetX) {
-			var cellWidth = scope.hover.activeCell.getDisplayWidth()
+			var cellWidth = view.relBlockWidth(scope.hover.activeCell.start, scope.hover.activeCell.end)
+			console.log('offsetX', offsetX, 'cellWidth', cellWidth)
 			if (offsetX >= cellWidth) {
 				scope.hover.resetActive()
 			}

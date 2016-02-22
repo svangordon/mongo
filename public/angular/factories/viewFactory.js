@@ -4,21 +4,33 @@
 // convenient to only have to write it once.
 
 angular.module('app')
-	.factory('viewFactory', [function () {
+	.factory('viewFactory', ['timeFactory', function (time) {
+		var viewStart = time.schedule.firstHour();
+		var viewEnd = time.schedule.lastHour();
+		console.log
 
 		var minPerPx = 2
 
 		// returns total size of block, not taking the viewport into account
 		var absBlockWidth = function (start, end) {
-			if(moment(end).diff(moment(start), 'm') < 0) {
-				console.log(start, end)
-			}
+			return moment(end).diff(moment(start), 'm') * minPerPx
+		}
 
-			return moment(end).diff(moment(start)) * minPerPx
-		} 
+		var relBlockWidth = function (progStart, progEnd) {
+			// console.log(moment(progStart).format(), moment(progEnd).format())
+			var start = Math.max(progStart, time.schedule.firstHour().valueOf()),
+				end = Math.min(moment.utc(progEnd), time.schedule.lastHour().valueOf());
+			// console.log('from block width: ', moment(start).format(),moment(end).format())
+			// console.log('progEnd', moment(progEnd).format(), '\nviewEnd', time.schedule.lastHour().format(), 
+				// '\nselected', moment(Math.min(progEnd, time.schedule.lastHour().valueOf())).format())
+			// console.log(moment(end).diff(moment(start), 'minutes') * minPerPx)
+			console.log( moment(end).diff(moment(start), 'minutes') * minPerPx)
+			return moment(end).diff(moment(start), 'minutes') * minPerPx
+		}
 
 		return {
 			minPerPx : minPerPx,
-			absBlockWidth : absBlockWidth
+			absBlockWidth : absBlockWidth,
+			relBlockWidth : relBlockWidth
 		}
 	}])

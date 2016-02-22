@@ -9,7 +9,7 @@ var emission = require('./emissionSchema')
 // create a schema
 var daySchema = new Schema({
   // network_id: Schema.Types.ObjectId, // Unsure if this makes sense, or if i should just include network callsign
-  networkCallsign : String,
+  callsign : String,
   date : 'Moment',
   emissions : [{
                 title : String,

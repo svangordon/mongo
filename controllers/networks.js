@@ -11,8 +11,12 @@ router.get('/all', function(req, res) {
 	  	})
 })
 
-router.get('/', function (req, res) {
-	
+
+router.get('/:networkName', function (req, res) {
+	var networkName = req.params.networkName
+	networks.find({callsign : networkName}, function(err, docs) {
+		res.send(docs[0])
+	})
 })
 
 module.exports = router

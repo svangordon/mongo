@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Fri Feb 19 07:19:09 2016 -->
+<channel id="bbc2" source="XMLTV" date="24/02/2016">
+  <programme>
+<title>This Is BBC Two</title>
+<start>0415</start>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<end>0615</end>
+  </programme>
+  <programme>
+<title>Food: Truth or Scare</title>
+<start>0615</start>
+<end>0700</end>
+<desc>2/5. Consumer series. With headlines suggesting millions are at risk of developing diabetes, Gloria Hunniford exposes how changing your diet can stop the condition in its tracks. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<start>0700</start>
+<title>Wanted Down Under Revisited</title>
+<desc>13/16. Cappleman Family: In 2009 Alan Cappleman was desperate to start a new life in Australia, but wife Louise wasn't keen. Six years later, have they made the life-changing move? Also in HD. [S]</desc>
+<end>0745</end>
+  </programme>
+  <programme>
+<start>0745</start>
+<title>Claimed and Shamed</title>
+<end>0815</end>
+<desc>7/10. Series which sees insurance fraudsters caught on camera. Officers from IFED hit the jackpot during a raid. CCTV footage puts one sleepy bus passenger's injury claim to bed. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<subtitle>North West Main</subtitle>
+<desc>Creative culinary competition. It's the battle for the main course. Mark remains determined and focused on getting to the judges' chamber after failing in 2014. [S,SL]</desc>
+<end>0845</end>
+<title>Great British Menu</title>
+<start>0815</start>
+  </programme>
+  <programme>
+<desc>3/6. Mary Berry shares a selection of her foolproof recipes. Mary cooks up a celebration of six delicious dishes perfect for outdoor entertaining and lazy summer days. [AD,S,SL]</desc>
+<end>0915</end>
+<start>0845</start>
+<title>Mary Berry's Foolproof Cooking</title>
+  </programme>
+  <programme>
+<start>0915</start>
+<title>Victoria Derbyshire</title>
+<desc>The BBC's daily news and current affairs programme with original stories, exclusive interviews, audience debate and breaking news. Also in HD. [S]</desc>
+<end>1100</end>
+  </programme>
+  <programme>
+<desc>The latest national and international news, plus top interviews and analysis. Also in HD. [S]</desc>
+<end>1130</end>
+<title>BBC News</title>
+<start>1100</start>
+  </programme>
+  <programme>
+<start>1130</start>
+<title>Daily Politics</title>
+<desc>Andrew Neil and Jo Coburn present live coverage of Prime Minister's Questions. Also in HD. [S]</desc>
+<end>1300</end>
+  </programme>
+  <programme>
+<desc>Singer Pixie Lott presents an appeal on behalf of Cardiac Risk in the Young, a charity devoted to supporting families following a cardiac bereavement. Also in HD. [S]</desc>
+<subtitle>Cardiac Risk in the Young</subtitle>
+<end>1310</end>
+<start>1300</start>
+<title>Lifeline</title>
+  </programme>
+  <programme>
+<end>1400</end>
+<desc>21/26. Based on the six political novels by Anthony Trollope. The party at Gatherum is in full swing and Ferdinand Lopez has managed to secure an invitation. [S]</desc>
+<title>The Pallisers</title>
+<start>1310</start>
+  </programme>
+  <programme>
+<end>1500</end>
+<desc>2/10. Gregg Wallace: Celebrity genealogy series. Gregg Wallace sets out to solve a long-standing mystery: what happened to his great-grandfather, who abandoned his family? Also in HD. [AD,S]</desc>
+<title>Who Do You Think You Are?</title>
+<start>1400</start>
+  </programme>
+  <programme>
+<start>1500</start>
+<title>A Place to Call Home</title>
+<desc>10/10. Unforgettable: Australian period drama. Rene suspects he is standing in the way of Sarah's happiness after witnessing a moment of yearning between her and George. Also in HD. [S]</desc>
+<end>1545</end>
+  </programme>
+  <programme>
+<desc>13/20. Game On: Recipes from some of the BBC's best-loved TV chefs. These dishes are made with some little-used but very tasty meats, including a venison dish from Rachel Khoo. Also in HD. [S]</desc>
+<end>1615</end>
+<title>The Best Dishes Ever</title>
+<start>1545</start>
+  </programme>
+  <programme>
+<end>1715</end>
+<desc>1/10. A Winning Design: David Attenborough looks at why mammals are the world's most successful creatures. He visits Australia to study marsupials, and mammals that have wombs. [AD,S]</desc>
+<title>The Life of Mammals</title>
+<start>1615</start>
+  </programme>
+  <programme>
+<end>1800</end>
+<desc>Antiques challenge. Swinderby Antiques Fair plays host to Tim Wonnacott and the bargain hunters. The teams are guided by experts Caroline Hawley and David Harper. Also in HD. [AD,S]</desc>
+<subtitle>Swinderby</subtitle>
+<title>Bargain Hunt</title>
+<start>1715</start>
+  </programme>
+  <programme>
+<end>1830</end>
+<desc>Jeremy Vine hosts the show in which teams from all over the UK take on probably the greatest quiz team in Britain, made up of some of the country's top quiz champions. Also in HD. [S]</desc>
+<start>1800</start>
+<title>Eggheads</title>
+  </programme>
+  <programme>
+<desc>3/20. Motherwell to Linlithgow: Michael Portillo celebrates Victorian iron and steel in Motherwell. Also in HD. [AD,S]</desc>
+<end>1900</end>
+<title>Great British Railway Journeys</title>
+<start>1830</start>
+  </programme>
+  <programme>
+<end>2000</end>
+<desc>...Challenge. Farm Houses: In the last round of the heats, two designers must each transform a farmhouse kitchen. Also in HD. [AD,S]</desc>
+<title>The Great Interior Design...</title>
+<start>1900</start>
+  </programme>
+  <programme>
+<end>2100</end>
+<subtitle>Skye and Matt/Mary and Luke</subtitle>
+<desc>Piers Taylor and Adam Khan help homeowners. With a fifth child on the way, Skye and Matt need ideas fast to completely transform their house. Also in HD. [S]</desc>
+<title>£100k House: Tricks of the Trade</title>
+<start>2000</start>
+  </programme>
+  <programme>
+<desc>2/3. Mei's quest to free Ajun gathers pace, but it isn't without its sacrifices. Also in HD. [AD,S]</desc>
+<end>2200</end>
+<start>2100</start>
+<title>One Child</title>
+  </programme>
+  <programme>
+<title>Live from the BBC</title>
+<start>2200</start>
+<desc>1/6. Mae Martin and Nish Kumar: Nish Kumar discusses the benefits of having an 'ethnically ambitious' face. Contains some strong language.  Also in HD. [S]</desc>
+<end>2230</end>
+  </programme>
+  <programme>
+<desc>In-depth investigation and analysis of the stories behind the day's headlines with Emily Maitlis. Also in HD. [S] Followed by weather.</desc>
+<end>2315</end>
+<start>2230</start>
+<title>Newsnight</title>
+  </programme>
+  <programme>
+<end>2345</end>
+<desc>8/9. Russell looks at the Oldham West by-election, Storm Desmond and mysterious apple thieves. Broadcaster Danny Baker is in the studio. Contains some strong language.  Also in HD. [S]</desc>
+<start>2315</start>
+<title>Russell Howard's Good News</title>
+  </programme>
+  <programme>
+<start>2345</start>
+<title>Who's the Boss?</title>
+<end>0045</end>
+<desc>1/3. Reynolds: British businesses deal with an innovative form of recruitment. A family-run national fruit and veg supplier gives its staff the power to decide who should get hired. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>1/4. Celebrities take on baking challenges for Sport Relief. Mel Giedroyc hosts this first episode featuring Jason Manford, Maddy Hill, David James and Samantha Cameron. [AD,S,SL]</desc>
+<end>0145</end>
+<title>The Great Sport Relief Bake Off</title>
+<start>0045</start>
+  </programme>
+  <programme>
+<desc>1/4. Moyo &amp; Robin: Lucy Cooke meets Moyo, a baby elephant who has been living with a carer since he was a few days old. Patrick Aryee meets Robin, an orphaned anteater. Also in HD. [AD,S,SL]</desc>
+<end>0245</end>
+<start>0145</start>
+<title>Nature's Miracle Orphans</title>
+  </programme>
+  <programme>
+<start>0245</start>
+<title>MasterChef: The Professionals</title>
+<desc>14/21. Knockout week of the culinary competition. Five chefs must prove they can work as a team when they are asked to create an exceptional dinner at London's distinguished Law Society. [S,SL]</desc>
+<end>0345</end>
+  </programme>
+  <programme>
+<start>0345</start>
+<title>This Is BBC Two</title>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<end>0615</end>
+  </programme>
+</channel>

@@ -1,175 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- produced for the bleb.org TV system at Thu Feb 18 08:39:02 2016 -->
-<channel id="bbc1" source="XMLTV" date="18/02/2016">
+<!-- produced for the bleb.org TV system at Fri Feb 19 07:19:05 2016 -->
+<channel id="bbc1" source="XMLTV" date="24/02/2016">
   <programme>
-<start>0600</start>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
 <end>0915</end>
 <title>Breakfast</title>
-<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+<start>0600</start>
   </programme>
   <programme>
-<end>1000</end>
+<title>Food: Truth or Scare</title>
 <start>0915</start>
-<desc>19/20. Consumer programme. Matt Allwright meets a single mum who is struggling to cope after a dispute with her landlord. Also in HD. [S]</desc>
-<title>The Housing Enforcers</title>
+<desc>3/5. Gloria Hunniford and Chris Bavin discover how it's not just what you eat that can make a difference to how you feel, but when you have it and how you cook it. Also in HD. [AD,S]</desc>
+<end>1000</end>
   </programme>
   <programme>
-<start>1000</start>
+<desc>Property renovation series. Martin, Lucy and Dion look around auction buys in Birmingham, Oldham and Gravesend and discover what the new owners plan to do with their investments. Also in HD. [S]</desc>
 <end>1100</end>
-<desc>Property renovation series. Martin, Lucy and Dion visit projects in Crewe in Cheshire, Chartham Hatch in Kent and Rusholme in Manchester to hear their buyers' money-making plans. Also in HD. [S]</desc>
 <title>Homes Under the Hammer</title>
+<start>1000</start>
   </programme>
   <programme>
+<title>Wanted Down Under Revisited</title>
 <start>1100</start>
 <end>1145</end>
-<title>Wanted Down Under Revisited</title>
-<desc>10/16. Randle Family: Two years after a trial week in Australia, have the Randle family moved there for good? Also in HD. [S]</desc>
+<desc>14/16. Clanahan Family: In 2013, the Clanahans faced a massive decision. Leah was desperate to return to her native Australia, but husband Andrew couldn't bear to leave his mum. Also in HD. [S]</desc>
   </programme>
   <programme>
 <end>1215</end>
-<start>1145</start>
-<desc>4/10. Series which sees insurance fraudsters caught on camera. Secret filming and a musical performance are instrumental in catching out a postman making a personal-injury claim. Also in HD. [S]</desc>
+<desc>8/10. Series which sees insurance fraudsters caught on camera. The Metropolitan Police raid a fraudulent claims management company, resulting in a jail term for the man behind it. Also in HD. [S]</desc>
 <title>Claimed and Shamed</title>
+<start>1145</start>
   </programme>
   <programme>
 <title>Bargain Hunt</title>
-<desc>Oswestry Showground plays host to two more teams of bargain hunters. Tim Wonnacott visits Wightwick Manor in Wolverhampton to explore an arts and crafts masterpiece. Also in HD. [AD,S]</desc>
-<subtitle>Oswestry</subtitle>
-<end>1300</end>
 <start>1215</start>
+<end>1300</end>
+<subtitle>Anglesey</subtitle>
+<desc>Antiques challenge. Guest presenter Charles Hanson travels to the Welsh island of Anglesey with two teams guided by experts Claire Rawle and Thomas Plant. Also in HD. [AD,S]</desc>
   </programme>
   <programme>
-<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
-<title>BBC News at One</title>
 <end>1330</end>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
 <start>1300</start>
+<title>BBC News at One</title>
   </programme>
   <programme>
-<desc>The latest news, sport and weather from London. [S]</desc>
-<title>BBC London News</title>
-<end>1345</end>
 <start>1330</start>
+<title>BBC London News</title>
+<desc>The latest news, sport and weather from London. [S]</desc>
+<end>1345</end>
   </programme>
   <programme>
-<subtitle>Being Witched</subtitle>
-<desc>Mrs Tembe makes a life-changing decision. Also in HD. [AD,S]</desc>
-<title>Doctors</title>
-<start>1345</start>
+<desc>Drama series set in a health centre. Rob investigates when a young man with a missing wife is found covered in blood. Anthony saves the practice from potential disaster. Also in HD. [AD,S]</desc>
+<subtitle>Triangle</subtitle>
 <end>1415</end>
+<start>1345</start>
+<title>Doctors</title>
   </programme>
   <programme>
-<desc>14/15. The Deadly Seal: Father Brown is told that Bishop Talbot will be assassinated. Also in HD. [AD,S]</desc>
-<title>Father Brown</title>
-<end>1500</end>
+<title>Moving On</title>
 <start>1415</start>
+<end>1500</end>
+<desc>3/5. Picture of Innocence: Drama. When a picture of Hayley's 16-year-old daughter is uploaded onto a website and goes viral, Hayley doesn't know what to do. Also in HD. [AD,S]</desc>
   </programme>
   <programme>
-<desc>Buyers are helped to find their dream homes. Alistair Appleton rises to the challenge in Shropshire, as he helps a husband and wife with a unique house-hunting technique. Also in HD. [AD,S]</desc>
+<start>1500</start>
 <title>Escape to the Country</title>
 <end>1545</end>
-<start>1500</start>
+<desc>Jonnie Irwin is on a multi-generational property mission to help a mother and son from London find rural harmony in the Hampshire countryside. Also in HD. [AD,S]</desc>
+<subtitle>Hampshire</subtitle>
   </programme>
   <programme>
-<desc>...Goodman. 14/25. Len Goodman takes TV personality, author and former MP Edwina Currie to sunny Bournemouth to relive her childhood holiday of 1957. Also in HD. [AD,S]</desc>
-<title>Holiday of My Lifetime with Len...</title>
-<start>1545</start>
 <end>1630</end>
+<desc>...Goodman. 18/25. Len takes journalist and broadcaster Eve Pollard back to the seaside town of Margate in Kent to reminisce about her 1955 holiday. Also in HD. [AD,S]</desc>
+<start>1545</start>
+<title>Holiday of My Lifetime with Len...</title>
   </programme>
   <programme>
 <start>1630</start>
-<end>1715</end>
-<subtitle>Gloucester</subtitle>
 <title>Flog It!</title>
-<desc>Antiques series. The team are in Gloucester, where presenter Paul Martin and experts Philip Serrell and Michael Baggott discover some rare gems. Also in HD. [S]</desc>
+<subtitle>Nottingham</subtitle>
+<desc>Antiques series. Flog it! comes from Southwell Minster in the town of Southwell near Nottingham. The experts uncover a collection of gold that raises the roof. Also in HD. [S]</desc>
+<end>1715</end>
   </programme>
   <programme>
-<desc>Quiz in which contestants try to score as few points as possible by plumbing the depths of their general knowledge to come up with the answers no-one else can think of. Also in HD. [S]</desc>
-<title>Pointless</title>
 <start>1715</start>
+<title>Pointless</title>
 <end>1800</end>
+<desc>Quiz in which contestants try to score as few points as possible by plumbing the depths of their general knowledge to come up with the answers no-one else can think of. Also in HD. [S]</desc>
   </programme>
   <programme>
 <title>BBC News at Six</title>
-<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
-<end>1830</end>
 <start>1800</start>
+<end>1830</end>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
   </programme>
   <programme>
-<desc>The latest news, sport and weather from London. [S]</desc>
-<title>BBC London News</title>
 <start>1830</start>
+<title>BBC London News</title>
 <end>1900</end>
+<desc>The latest news, sport and weather from London. [S] Followed by a Party Political Broadcast by the Liberal Democrats.</desc>
   </programme>
   <programme>
-<desc>If it's got Britain talking then it will get talked about on The One Show. Presented by Matt Baker and Alex Jones. Also in HD. [S]</desc>
-<title>The One Show</title>
 <start>1900</start>
-<end>1930</end>
-  </programme>
-  <programme>
-<start>1930</start>
+<title>The One Show</title>
 <end>2000</end>
-<desc>Tina shares her concerns with Sonia about their relationship. Martin reaches breaking point, and Abi begins to have doubts. Also in HD. [AD,S] Then BBC News.</desc>
-<title>EastEnders</title>
+<desc>If it's got Britain talking then it will get talked about on The One Show. Presented by Matt Baker and Alex Jones. Also in HD. [S] Then BBC News.</desc>
   </programme>
   <programme>
-<desc>18/20. Bucket begins the unpleasant task of bringing the murderer to justice. Also in HD. [AD,S]</desc>
-<title>Dickensian</title>
-<end>2030</end>
+<title>The Great Sport Relief Bake Off</title>
 <start>2000</start>
-  </programme>
-  <programme>
-<title>Room 101</title>
-<desc>5/9. Frank Skinner hosts as Shaun Ryder, Meera Syal and Australian comedian Sam Simmons compete to have their pet hates consigned to Room 101. Also in HD. [S]</desc>
 <end>2100</end>
-<start>2030</start>
+<desc>4/4. Celebrities take on baking challenges for Sport Relief. Sarah Millican hosts this fourth episode, featuring Alison Steadman, Ade Edmondson, Will Young and Morgana Robinson. Also in HD. [AD,S]</desc>
   </programme>
   <programme>
 <start>2100</start>
+<title>Tomorrow's Food</title>
 <end>2200</end>
-<desc>7/8. Detective drama series. When a marine salvage hunter is killed, the evidence seems to point to one man. The trouble for the team is that the suspect has a solid alibi. Also in HD. [AD,S]</desc>
-<title>Death in Paradise</title>
+<desc>3/3. Science series revealing the future of food. Dr Shini Somara tastes chocolate that's sweeter and healthier because it's been treated with mushrooms. Also in HD. [AD,S]</desc>
   </programme>
   <programme>
 <start>2200</start>
-<end>2230</end>
 <title>BBC News at Ten</title>
 <desc>The latest national and international news, with reports from BBC correspondents worldwide. Also in HD. [S]</desc>
+<end>2230</end>
   </programme>
   <programme>
 <title>BBC London News</title>
-<desc>The latest news, sport and weather from London. [S] Followed by national weather.</desc>
 <start>2230</start>
 <end>2245</end>
+<desc>The latest news, sport and weather from London. [S] Followed by national weather.</desc>
   </programme>
   <programme>
-<end>2345</end>
+<title>A Question of Sport</title>
 <start>2245</start>
-<title>Question Time</title>
-<desc>David Dimbleby presents from Stratford-upon-Avon. Panellists include Justine Greening, Lisa Nandy, John Nicolson, June Sarpong and Theo Paphitis. Also in HD. [S]</desc>
+<end>2315</end>
+<desc>Sue Barker hosts the sports quiz, with captains Matt Dawson and Phil Tufnell, and guests John O'Shea, Hannah Miley, Neil Robertson and Harry Aikines-Aryeetey. Also in HD. [S]</desc>
   </programme>
   <programme>
-<start>2345</start>
-<end>0045</end>
-<title>Professor Green: Suicide and Me</title>
-<desc>Rapper Professor Green takes an intensely personal journey to uncover the truth behind the suicide of his father. Contains some strong language.  Also in HD. [S]</desc>
+<end>2350</end>
+<desc>Claudia Winkleman, Danny Leigh and Peter Bradshaw look at the runners and riders at the Oscars, Sacha Baron Cohen's comedy Grimsby, and Julia Roberts thriller Secret in Their Eyes. Also in HD. [S]</desc>
+<start>2315</start>
+<title>Film 2016</title>
   </programme>
   <programme>
-<start>0045</start>
-<end>0050</end>
+<end>0125</end>
+<type>Film</type>
+<desc>Tense thriller about a janitor with brain damage (Joseph Gordon-Levitt) who is lured into taking part in a bank heist by a charismatic gang boss. Contains strong language.  [2007] [S]</desc>
+<title>The Lookout</title>
+<start>2350</start>
+  </programme>
+  <programme>
 <desc>Detailed weather forecast. Also in HD. [S]</desc>
+<end>0130</end>
 <title>Weather for the Week Ahead</title>
+<start>0125</start>
   </programme>
   <programme>
 <desc>BBC One joins the BBC's rolling news channel for a night of news, with bulletins on the hour and the headlines every 15 minutes. Also in HD. [S]</desc>
-<title>BBC News</title>
-<start>0050</start>
 <end>0600</end>
+<title>BBC News</title>
+<start>0130</start>
   </programme>
   <programme>
-<title>Breakfast</title>
 <desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
 <end>0915</end>
 <start>0600</start>
+<title>Breakfast</title>
   </programme>
 </channel>

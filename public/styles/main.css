@@ -141,7 +141,6 @@ body {
   display: inline-block;
   height: 64px;
   font-size: 60%;
-  background-color: #e74c3c;
   border-right: solid #000 1px;
 }
 .emission-block-content {

@@ -4,14 +4,6 @@ angular.module('app')
 		networks.allNetworks().then(function(res) {
 			scope.networks = res.data
 		})
-		// scope.activeNetworks = networks.activeNetworks
-		// scope.log = function(val) {
-		// 	console.log(val)
-		// }
-
-		scope.record = function (val) {
-			console.log(val)
-		}
 
 		scope.hoverStateReset = function () {
 			for (network in emissions.emissionsByNetwork) {
