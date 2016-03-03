@@ -1,0 +1,58 @@
+[
+	{
+		"name" : "BBC 1",
+		"callsign" : "bbc1",
+		"guideUrl" : "http://www.bbc.co.uk/iplayer/schedules/bbcone/",
+		"streamUrl" : "http://www.bbc.co.uk/iplayer/live/bbcone",
+		"logo" : "http://static.bbci.co.uk/tviplayer/1.92.0/img/logos/svg/bbcone.svg",
+		"color" : "#ea2923"
+	},
+	{
+		"name" : "BBC 2",
+		"callsign" : "bbc2",
+		"guideUrl" : "http://www.bbc.co.uk/iplayer/schedules/bbctwo/",
+		"streamUrl" : "http://www.bbc.co.uk/iplayer/live/bbctwo",
+		"logo" : "http://static.bbci.co.uk/tviplayer/1.92.0/img/logos/svg/bbcone.svg",
+		"color" : "#2d6b83"
+	},
+	{
+		"name" : "BBC 4",
+		"callsign" : "bbc4",
+		"guideUrl" : "http://www.bbc.co.uk/iplayer/schedules/bbcfour/",
+		"streamUrl" : "http://www.bbc.co.uk/iplayer/live/bbcfour",
+		"logo" : "http://static.bbci.co.uk/tviplayer/1.96.0/img/logos/svg/bbcfour.svg",
+		"color" : "#fff"
+	},
+	{
+		"name" : "Channel 4",
+		"callsign" : "ch4",
+		"guideUrl" : "#",
+		"streamUrl" : "#",
+		"logo" : "http://static.c4assets.com/epg/1.0.504/img/icon-ch-c4.svg",
+		"color" : "#243d58"
+	},
+	{
+		"name" : "E4",
+		"callsign" : "e4",
+		"guideUrl" : "#",
+		"streamUrl" : "#",
+		"logo" : "http://static.c4assets.com/epg/1.0.504/img/icon-ch-e4.svg",
+		"color" : "#6d2c85"
+	},
+	{
+		"name" : "More 4",
+		"callsign" : "more4",
+		"guideUrl" : "#",
+		"streamUrl" : "#",
+		"logo" : "http://static.c4assets.com/epg/1.0.504/img/icon-ch-m4.svg",
+		"color" : "#333c41"
+	},
+	{
+		"name" : "Film Four",
+		"callsign" : "film_four",
+		"guideUrl" : "#",
+		"streamUrl" : "#",
+		"logo" : "http://static.c4assets.com/epg/1.0.504/img/icon-ch-f4.svg",
+		"color" : "#d22c1d"
+	}
+]

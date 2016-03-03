@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+
+
+<html ng-app="app">
+<head>
+	<title></title>
+
+	<!-- If it turns out that I don't need JQ, -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Bootstrap: Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Bootstrap: Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+
+	<!-- Angular Animations -->
+	<script type="text/javascript" src="https://code.angularjs.org/1.5.0-rc.2/angular-animate.js"></script>
+
+	<!-- moment js -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+	<script type="text/javascript" src="http://momentjs.com/downloads/moment-timezone.min.js"></script>
+
+	<!-- Angular files -->
+	<script src="angular/modules/app.js"></script>
+		
+		<!-- ng filters -->
+		<script type="text/javascript" src="angular/filters/inViewFilter.js"></script>
+
+		<!-- Angular Factories -->
+		<script type="text/javascript" src="angular/factories/emissionsFactory.js"></script>
+		<script type="text/javascript" src="angular/factories/hoverFactory.js"></script>
+		<script type="text/javascript" src="angular/factories/networksFactory.js"></script>
+		<script type="text/javascript" src="angular/factories/timeFactory.js"></script>
+		<script type="text/javascript" src="angular/factories/dayFactory.js"></script>
+		<script type="text/javascript" src="angular/factories/viewFactory.js"></script>
+
+		<!-- Angular Controllers -->
+		<script type="text/javascript" src="angular/controllers/networksController.js"></script>
+		<script type="text/javascript" src="angular/controllers/emissionsController.js"></script>
+		<script type="text/javascript" src="angular/controllers/tooltipController.js"></script>
+		<script type="text/javascript" src="angular/controllers/guideViewController.js"></script>
+		<script type="text/javascript" src="angular/controllers/timeBarController.js"></script>
+	
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/animations.css">
+</head>
+<body>
+
+		<div class="container">
+			<div class="page-header">
+		  		<h1 class="title">Zappeur</h1>
+		  		<h1 class="sub-title"><small>the revolution will not be geo-blocked</small></h1>
+			</div>
+		</div>
+
+	<div class="container tv-guide-container" ng-controller="guideViewController">
+		<div ng-controller="tooltipController" ng-show="isActiveCell()" ng-mouseleave="hover.resetActive(); logActiveOnExit()" ng-mousemove="hoverHandler($event.offsetX)" class="tooltip-div" ng-style="{'top' : getTop() + 'px' , 'left' : getLeft() + 'px', 'width' : hover.activeCell.getDisplayWidth()}">
+			<p ng-bind="hover.getTitle()"></p>
+			<p ng-bind="hover.activeCell.desc"></p>
+		</div>
+		<div class="row">
+			<div class="col-xs-1 move-schedule-container">
+				<span class="glyphicon glyphicon-chevron-left move-schedule move-schedule-left" aria-hidden="true" ng-click="slideState.incrementLeft(); schedule.rewind()"></span>
+				<span class="glyphicon glyphicon-chevron-right move-schedule move-schedule-right pull-right" aria-hidden="true" ng-click="slideState.incrementRight(); schedule.advance()"></span>
+			</div>
+			<div class="col-xs-10 time-bar" ng-controller="timeBarController">
+				<div class="days-bar">
+					<div class="day-block btn btn-primary" ng-repeat="day in schedule.days" ng-bind="day.format('ddd MMM DD')" ng-click="schedule.goToDay(day)" ng-class="{'btn-danger' : $index == 2}">
+						
+					</div>
+				</div>
+				<div class="hours-bar">
+					<div ng-repeat="hour in schedule.hours" class="hour-block" ng-style="{'width' : 60 * minPerPx +'px'}">
+						{{ hour.format('LT') }}
+						<div class="hour-block-half-hour">&nbsp;</div>
+						
+					</div>
+				</div>
+				<div class="current-time-marker" ng-style="{'left' : schedule.nowBarPosition(minPerPx) + 'px', 'height' : timeBarHeight() + 'px'}" ng-show="schedule.nowBarInView()">&nbsp;</div>
+			</div>
+		</div>
+		<div class="row" ng-controller="networksController">
+			<div class="stations-list col-xs-1" >
+				<div class="network-block" ng-repeat="network in networks | filter: activeNetworks.isActive" ng-style="{'background' : 'url('+network.logo+') '+network.color + ' center / auto 50px no-repeat', 'background-color' : network.color}" ng-mouseenter="network.hover = true" ng-mouseleave="network.hover = false">
+					<span class="glyphicon glyphicon-remove remove-network" ng-show="network.hover" ng-click="activeNetworks.remove(network.callsign); $event.stopPropagation(); log(activeNetworks.networks)"></span>
+					<a class="btn network-block-link" ng-href="{{network.streamUrl}}">
+					</a>
+				</div>
+				<div class="add-network-block" ng-click="addNetworks = !addNetworks; log(activeNetworks)" >
+					<span class="glyphicon glyphicon-plus"></span>
+				</div>
+			</div>
+			<div class="guide-view col-xs-10 viewport" ng-controller="emissionsController" ng-style="{'height' : (activeNetworksNumber() + 1) * 64 + 'px'}">
+				<div class="emission-row" ng-repeat="channel in channels | filter: activeNetworks.isActive"
+					ng-style="{'background-color' : colorTable[channel.callsign], 'name' : channel.networkCallsign}">
+						<div class="emission-block pull-left" ng-repeat="emission in channel.emissions | inViewFilter : schedule " ng-style="{'background-color' : channel.color , width : relBlockWidth(emission.start, emission.end) + 'px'}" ng-mousemove="hover.setActive(emission)" ng-class="{'active-cell': hover.testActive(emission)}">
+							<div class="emission-block-content" ng-bind="emission.title"></div>
+						</div>
+					<!-- <div ng-repeat="emission in network.emissions | inViewFilter : schedule" class="emission-block pull-left" ng-class="{'active-cell': hover.testActive(emission) , 'slide-left-1' : slideState.val === 0, 'slide-left-2' : slideState.val === 1, 'slide-right-1' : slideState.val === 2, 'slide-right-2' : slideState.val === 3}" ng-style="{'width' : emission.getDisplayWidth() + 'px', 'background-color' : network.color, 'transform' : 'translateX('+emisson.getDisplayWidth()+'px'}" ng-click="log(document.getElementsByClassName('active-cell'))" ng-mouseenter="hover.setActive(emission); log('hi')" ng-mousemove="log()" ng-bind="emission.title"> -->
+						<!-- <div class="emission-block-content" ng-bind="::emission.title"></div> -->
+<!-- 						<div ng-show="false" class="emission-block-description" ng-mousemove="hover.activeCell = hover.activeCell.hoverHandler($event.offsetX, emission.getDisplayWidth())" ng-mouseleave="hover.resetActive()" ng-click="hover.resetActive()">
+							<p ng-bind="::emission.title"></p>
+							<p ng-bind="::emission.desc"></p>
+						</div> 
+					</div> -->
+				</div>
+				<div ng-show="addNetworks">
+					<div ng-repeat="network in networks | filter : activeNetworks.isInactive" class="network-block-add" ng-style="{'background' : 'url('+network.logo+') '+network.color + ' center / auto 50px no-repeat', 'background-color' : network.color}" ng-click=" activeNetworks.add(network.callsign); addNetworks = false">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- /container -->
+
+	<div class="container site-desc">
+		<div class="row">
+			<div class="site-desc-header">
+				<h3>Zappeur is a TV guide for streaming geo-blocked television.</h3>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xs-4 site-desc-col">
+				<h4>Get a proxy</h4>
+				<p>Your IP adress will visit place you can only dream of. Services include <a href="https://www.privateinternetaccess.com/">PIA</a>, <a href="https://www.hidemyass.com/">HMA</a>, and <a href="https://www.purevpn.com">PureVPN</a>. Make sure to do your due diligence.  Or don't, whatever</p>
+			</div>
+			<div class="col-xs-4 site-desc-col">
+				<h4>Find something you want to watch</h4>
+				<p>6 Nations is on this weekend. Happy Valley is nice if you're looking for something dark. Great British Bake-off is the greatest show ever conceived.</p>
+			</div>
+			<div class="col-xs-4 site-desc-col">
+				<h4>Pretend that you're foreign</h4>
+				<p>Did you see that ludicrous display last night? What was Wenger thinking sending Walcott on so early? The thing about Arsenal is, they always try and walk it in.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

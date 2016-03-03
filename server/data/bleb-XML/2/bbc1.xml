@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Sat Feb 20 07:19:01 2016 -->
+<channel id="bbc1" source="XMLTV" date="25/02/2016">
+  <programme>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+<start>0600</start>
+<title>Breakfast</title>
+<end>0915</end>
+  </programme>
+  <programme>
+<end>1000</end>
+<title>Food: Truth or Scare</title>
+<start>0915</start>
+<desc>4/5. Gloria Hunniford and Chris Bavin investigate whether we should really be giving up bacon and sausages, after new research suggested they're bad for us. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<end>1100</end>
+<desc>Property renovation series. A semi in Liverpool, a terraced house in Stoke and a basement flat in London are all sold under the hammer. Martin, Lucy and Dion meet the new owners. Also in HD. [S]</desc>
+<title>Homes Under the Hammer</title>
+<start>1000</start>
+  </programme>
+  <programme>
+<desc>15/16. Howes Family: In 2013, Dave Howes was hoping a trial week in Australia would persuade wife Laurra to move their family there for good. Have they moved two years later? Also in HD. [S]</desc>
+<title>Wanted Down Under Revisited</title>
+<start>1100</start>
+<end>1145</end>
+  </programme>
+  <programme>
+<end>1215</end>
+<start>1145</start>
+<title>Claimed and Shamed</title>
+<desc>9/10. Series which sees insurance fraudsters caught on camera. A fraudster goes on the run after a claim for over £100,000 worth of camera equipment is exposed as a fraud. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>Antiques challenge. The teams are in Horncastle, Lincolnshire, with experts Paul Laidlaw and Christina Trevanion. Tim Wonnacott makes a spectacular find at auction. Also in HD. [AD,S]</desc>
+<title>Bargain Hunt</title>
+<start>1215</start>
+<end>1300</end>
+<subtitle>Horncastle</subtitle>
+  </programme>
+  <programme>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
+<title>BBC News at One</title>
+<start>1300</start>
+<end>1330</end>
+  </programme>
+  <programme>
+<desc>The latest news, sport and weather from London. [S]</desc>
+<title>BBC London News</title>
+<start>1330</start>
+<end>1345</end>
+  </programme>
+  <programme>
+<end>1415</end>
+<subtitle>24</subtitle>
+<desc>Drama set in a health centre. Daniel takes charge when the campus is locked down after reports of a gunman. The suspect has a Nazi tattoo - as does a patient in the surgery. Also in HD. [AD,S]</desc>
+<title>Doctors</title>
+<start>1345</start>
+  </programme>
+  <programme>
+<start>1415</start>
+<title>Moving On</title>
+<desc>4/5. Love: Drama. Angela cares for her alcoholic dad Mick. When an accident leads to Mick needing to live with her, she has to confront her father's problems and her own. Also in HD. [AD,S]</desc>
+<end>1500</end>
+  </programme>
+  <programme>
+<desc>Buyers are helped to find their dream homes. Nicki Chapman helps a pair of soon-to-be grandparents with a budget of £310,000 to find their country retreat close to their daughters. Also in HD. [AD,S]</desc>
+<start>1500</start>
+<title>Escape to the Country</title>
+<end>1545</end>
+  </programme>
+  <programme>
+<end>1630</end>
+<title>Holiday of My Lifetime with Len...</title>
+<start>1545</start>
+<desc>...Goodman. 19/25. Len takes actor Ian Kelsey back to Lyme Regis on the border of Dorset and Devon to relive his favourite childhood holiday, which he went on in 1973. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<subtitle>Falmouth</subtitle>
+<end>1715</end>
+<start>1630</start>
+<title>Flog It!</title>
+<desc>Antiques series. Antiques expert Philip Serrell finds an unusual tortoise with an excellent pedigree and Caroline Hawley takes an electric guitar to auction. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>1800</end>
+<start>1715</start>
+<title>Pointless</title>
+<desc>Quiz in which contestants try to score as few points as possible by plumbing the depths of their general knowledge to come up with the answers no-one else can think of. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>1830</end>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
+<title>BBC News at Six</title>
+<start>1800</start>
+  </programme>
+  <programme>
+<end>1900</end>
+<desc>The latest news, sport and weather from London. [S]</desc>
+<title>BBC London News</title>
+<start>1830</start>
+  </programme>
+  <programme>
+<end>1930</end>
+<desc>If it's got Britain talking then it will get talked about on The One Show. Presented by Matt Baker and Alex Jones. Also in HD. [S]</desc>
+<title>The One Show</title>
+<start>1900</start>
+  </programme>
+  <programme>
+<end>2000</end>
+<start>1930</start>
+<title>EastEnders</title>
+<desc>Tensions are high when a fuming Abi struggles to come to terms with Ben's latest admission. The Beales receive an offer on the restaurant. Also in HD. [AD,S] Then BBC News.</desc>
+  </programme>
+  <programme>
+<end>2030</end>
+<desc>6/9. Frank Skinner hosts as Claudia Winkleman, John Humphrys and Russell Kane compete to have their pet hates consigned to Room 101. Also in HD. [S]</desc>
+<start>2000</start>
+<title>Room 101</title>
+  </programme>
+  <programme>
+<start>2030</start>
+<title>EastEnders</title>
+<desc>Nancy is left upset when Mick surprises Lee with a brand new car. However, the day quickly takes a turn. Also in HD. [AD,S]</desc>
+<end>2100</end>
+  </programme>
+  <programme>
+<end>2200</end>
+<desc>8/8. Detective drama series. The team is faced with an impossible murder when a young backpacker is shot inside a sealed room. Plus DI Goodman has a date. Also in HD. [AD,S]</desc>
+<title>Death in Paradise</title>
+<start>2100</start>
+  </programme>
+  <programme>
+<end>2230</end>
+<desc>The latest national and international news, with reports from BBC correspondents worldwide. Also in HD. [S]</desc>
+<start>2200</start>
+<title>BBC News at Ten</title>
+  </programme>
+  <programme>
+<desc>The latest news, sport and weather from London. [S] Followed by national weather.</desc>
+<title>BBC London News</title>
+<start>2230</start>
+<end>2245</end>
+  </programme>
+  <programme>
+<end>2345</end>
+<desc>Topical debate with a panel of prominent public figures and an invited audience. Also in HD. [S]</desc>
+<start>2245</start>
+<title>Question Time</title>
+  </programme>
+  <programme>
+<desc>A political review of the week presented by Andrew Neil, with Michael Portillo and guests. Also in HD. [S]</desc>
+<title>This Week</title>
+<start>2345</start>
+<end>0030</end>
+  </programme>
+  <programme>
+<desc>Detailed weather forecast. Also in HD. [S]</desc>
+<start>0030</start>
+<title>Weather for the Week Ahead</title>
+<end>0035</end>
+  </programme>
+  <programme>
+<end>0600</end>
+<desc>BBC One joins the BBC's rolling news channel for a night of news, with bulletins on the hour and the headlines every 15 minutes. Also in HD. [S]</desc>
+<start>0035</start>
+<title>BBC News</title>
+  </programme>
+  <programme>
+<start>0600</start>
+<title>Breakfast</title>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+<end>0915</end>
+  </programme>
+</channel>

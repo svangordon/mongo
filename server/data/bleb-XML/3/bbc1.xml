@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Sun Feb 21 07:19:01 2016 -->
+<channel id="bbc1" source="XMLTV" date="26/02/2016">
+  <programme>
+<end>0915</end>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+<start>0600</start>
+<title>Breakfast</title>
+  </programme>
+  <programme>
+<title>Food: Truth or Scare</title>
+<start>0915</start>
+<desc>5/5. Gloria Hunniford and Chris Bavin unpick the dramatic shift in advice on alcohol consumption. Plus the shocking secrets of how Britain snacks are revealed. Also in HD. [AD,S]</desc>
+<end>1000</end>
+  </programme>
+  <programme>
+<desc>Property renovation series. Martin Roberts, Lucy Alexander and Dion Dublin are in Stoke, Croydon and Warrington hearing tales from the auction rooms. Also in HD. [S]</desc>
+<start>1000</start>
+<title>Homes Under the Hammer</title>
+<end>1100</end>
+  </programme>
+  <programme>
+<title>Wanted Down Under Revisited</title>
+<start>1100</start>
+<desc>16/16. O'Connor Family: Suffering from ME, Mum Vicky O'Connor believed Australia's climate could improve her health. Has the trial week there persuaded the family to move? Also in HD. [S]</desc>
+<end>1145</end>
+  </programme>
+  <programme>
+<desc>10/10. Series which sees insurance fraudsters caught on camera. The criminals behind a car insurance fraud are jailed after one of the gang makes a confession. Also in HD. [S]</desc>
+<start>1145</start>
+<title>Claimed and Shamed</title>
+<end>1215</end>
+  </programme>
+  <programme>
+<desc>Charlie Ross presents this episode from Newark antiques fair. Natasha Raskin and Ben Cooper are the experts guiding two teams of couples hoping to make a profit at auction. Also in HD. [AD,S]</desc>
+<start>1215</start>
+<title>Bargain Hunt</title>
+<end>1300</end>
+  </programme>
+  <programme>
+<title>BBC News at One</title>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
+<start>1300</start>
+<end>1330</end>
+  </programme>
+  <programme>
+<title>BBC London News</title>
+<desc>The latest news, sport and weather from London. [S]</desc>
+<start>1330</start>
+<end>1345</end>
+  </programme>
+  <programme>
+<subtitle>Direct from the West End</subtitle>
+<desc>Drama series set in a health centre. Valerie gets a shock when an unexpected guest turns up to see her. Also in HD. [AD,S]</desc>
+<start>1345</start>
+<title>Doctors</title>
+<end>1410</end>
+  </programme>
+  <programme>
+<end>1500</end>
+<desc>5/5. Scratch: Drama. John has always hated confrontation. When a scratch appears down the side of his car, it leads to firings and fights, concrete mixers and a Mexican stand-off. Also in HD. [AD,S]</desc>
+<start>1410</start>
+<title>Moving On</title>
+  </programme>
+  <programme>
+<end>1545</end>
+<title>Escape to the Country</title>
+<start>1500</start>
+<desc>Buyers are helped to find dream homes. Alistair Appleton helps a couple who want to improve their work-life balance with a rural retreat in Norfolk and visits a seaside favourite. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<end>1630</end>
+<title>Holiday of My Lifetime with Len...</title>
+<start>1545</start>
+<desc>...Goodman. 20/25. Len takes television presenter and actress Janet Ellis back to the New Forest to reminisce about the holiday of her lifetime, which she took back in 1963. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<subtitle>Wallasey</subtitle>
+<desc>Antiques series. This episode comes from Wallasey Town Hall. Experts Anita Manning and Philip Serrell select the best antiques and collectables to take to auction. Also in HD. [S]</desc>
+<start>1630</start>
+<title>Flog It!</title>
+<end>1715</end>
+  </programme>
+  <programme>
+<end>1800</end>
+<desc>Quiz in which contestants try to score as few points as possible by plumbing the depths of their general knowledge to come up with the answers no-one else can think of. Also in HD. [S]</desc>
+<start>1715</start>
+<title>Pointless</title>
+  </programme>
+  <programme>
+<title>BBC News at Six</title>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
+<start>1800</start>
+<end>1830</end>
+  </programme>
+  <programme>
+<end>1900</end>
+<desc>The latest news, sport and weather from London. [S]</desc>
+<start>1830</start>
+<title>BBC London News</title>
+  </programme>
+  <programme>
+<title>The One Show</title>
+<start>1900</start>
+<desc>If it's got Britain talking then it will get talked about on The One Show. Presented by Alex Jones. Also in HD. [S]</desc>
+<end>1930</end>
+  </programme>
+  <programme>
+<end>2200</end>
+<title>Six Nations: Wales v France</title>
+<start>1930</start>
+<desc>John Inverdale introduces live coverage from the Millennium Stadium as Wales meet France in the third round of fixtures in this year's Six Nations. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>2225</end>
+<title>BBC News at Ten</title>
+<start>2200</start>
+<desc>The latest national and international news, with reports from BBC correspondents worldwide. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>The latest news, sport and weather from London. [S] Followed by national weather.</desc>
+<start>2225</start>
+<title>BBC London News</title>
+<end>2235</end>
+  </programme>
+  <programme>
+<start>2235</start>
+<desc>Mockumentary following the lives of non-medical hospital staff. A new manager, Susan Mitchell, takes over the beleaguered Brimlington hospital. Also in HD. [AD,S]</desc>
+<title>New: Hospital People</title>
+<end>2305</end>
+  </programme>
+  <programme>
+<end>2345</end>
+<start>2305</start>
+<desc>1/2. Nanger Management: Comedy. Nan's aggressive attitude gets her into trouble with the police, and she is forced to attend anger management classes. Contains strong language.  Also in HD. [AD,S]</desc>
+<title>Catherine Tate's Nan</title>
+  </programme>
+  <programme>
+<end>0110</end>
+<start>2345</start>
+<desc>6/14. Party Like a Mock Star: The celebrities must create a launch party for their selected flavour of mock-tails. Contains adult themes.  Also in HD. [S]</desc>
+<title>The Celebrity Apprentice USA</title>
+  </programme>
+  <programme>
+<desc>7/14. Walking Papers: The teams have to make a guide book of New York and a programme to get people walking. Contains adult themes.  Also in HD. [S]</desc>
+<start>0110</start>
+<title>The Celebrity Apprentice USA</title>
+<end>0315</end>
+  </programme>
+  <programme>
+<start>0315</start>
+<desc>Detailed weather forecast. Also in HD. [S]</desc>
+<title>Weather for the Week Ahead</title>
+<end>0320</end>
+  </programme>
+  <programme>
+<start>0320</start>
+<desc>BBC One joins the BBC's rolling news channel for a night of news, with bulletins on the hour and the headlines every 15 minutes. Also in HD. [S]</desc>
+<title>BBC News</title>
+<end>0600</end>
+  </programme>
+  <programme>
+<end>1000</end>
+<start>0600</start>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S]</desc>
+<title>Breakfast</title>
+  </programme>
+</channel>

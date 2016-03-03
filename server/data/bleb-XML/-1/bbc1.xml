@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Mon Feb 22 08:39:02 2016 -->
+<channel id="bbc1" source="XMLTV" date="22/02/2016">
+  <programme>
+<title>Breakfast</title>
+<start>0600</start>
+<end>0915</end>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+  </programme>
+  <programme>
+<end>1000</end>
+<desc>1/5. Consumer series. Gloria Hunniford discovers whether the vitamins she takes each day are necessary or if she can get all the nutrients she needs from her food? Also in HD. [AD,S]</desc>
+<start>0915</start>
+<title>Food: Truth or Scare</title>
+  </programme>
+  <programme>
+<title>Homes Under the Hammer</title>
+<start>1000</start>
+<desc>Property renovation series. A former miner's cottage in Aberaman in South Wales and semis in Adderley Green in Stoke and Streatham in south London are all sold under the hammer. Also in HD. [S]</desc>
+<end>1100</end>
+  </programme>
+  <programme>
+<end>1145</end>
+<desc>12/16. Barker Family: In 2013, 18-year-old Richele Barker was determined to persuade mum Lorraine to move to New Zealand with her. Two years later, is it where they now call home? Also in HD. [S]</desc>
+<start>1100</start>
+<title>Wanted Down Under Revisited</title>
+  </programme>
+  <programme>
+<desc>6/10. Series which sees insurance fraudsters caught on camera. IFED bring down a huge ghost broking scam and an unconvincing tale of a stolen camera is exposed. Also in HD. [S]</desc>
+<end>1215</end>
+<title>Claimed and Shamed</title>
+<start>1145</start>
+  </programme>
+  <programme>
+<title>Bargain Hunt</title>
+<start>1215</start>
+<desc>Paul Laidlaw leads proceedings from Peterborough's East of England Showground. Experts Philip Serrell and Christina Trevanion are on hand to guide the teams. Also in HD. [AD,S]</desc>
+<end>1300</end>
+  </programme>
+  <programme>
+<title>BBC News at One</title>
+<start>1300</start>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
+<end>1330</end>
+  </programme>
+  <programme>
+<desc>The latest news, sport and weather from London. [S]</desc>
+<end>1345</end>
+<start>1330</start>
+<title>BBC London News</title>
+  </programme>
+  <programme>
+<start>1345</start>
+<title>Doctors</title>
+<desc>Drama series set in a health centre. Karen spots symptoms in a patient that may indicate drug taking, and Emma reaches breaking point with Bren. Also in HD. [AD,S]</desc>
+<subtitle>Melting Point</subtitle>
+<end>1415</end>
+  </programme>
+  <programme>
+<title>Moving On</title>
+<start>1415</start>
+<end>1500</end>
+<desc>1/5. Taxi for Linda: Drama series. Working at the same taxi rank, Frank is left with the prospect of having to tell Linda, the woman he loves, something that will break her heart. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<title>Escape to the Country</title>
+<start>1500</start>
+<subtitle>Sussex</subtitle>
+<desc>Jonnie Irwin is in Sussex with a house-hunting couple who hope their £650,000 budget will secure them their perfect rural retreat. Jonnie also visits Arundel Castle. Also in HD. [AD,S]</desc>
+<end>1545</end>
+  </programme>
+  <programme>
+<title>Holiday of My Lifetime with Len...</title>
+<start>1545</start>
+<desc>...Goodman. 16/25. Len Goodman takes actor, writer and comedian Nigel Planer back to Ottery-St-Mary in Devon to relive his childhood holiday of 1960. Also in HD. [AD,S]</desc>
+<end>1630</end>
+  </programme>
+  <programme>
+<title>Flog It!</title>
+<start>1630</start>
+<end>1715</end>
+<subtitle>Bowes Museum</subtitle>
+<desc>Antiques series. Paul Martin presents from the Bowes Museum at Barnard Castle in County Durham, purpose-built to house the collection of Josephine and John Bowes. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>1800</end>
+<desc>Quiz in which contestants try to score as few points as possible by plumbing the depths of their general knowledge to come up with the answers no-one else can think of. Also in HD. [S]</desc>
+<title>Pointless</title>
+<start>1715</start>
+  </programme>
+  <programme>
+<start>1800</start>
+<title>BBC News at Six</title>
+<end>1830</end>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<title>BBC London News</title>
+<start>1830</start>
+<desc>The latest news, sport and weather from London. [S]</desc>
+<end>1900</end>
+  </programme>
+  <programme>
+<desc>If it's got Britain talking then it will get talked about on The One Show. Presented by Matt Baker and Alex Jones. Also in HD. [S]</desc>
+<end>1930</end>
+<title>The One Show</title>
+<start>1900</start>
+  </programme>
+  <programme>
+<desc>How one security firm is still refusing to pay its workers four years on from the London Olympics. And how chefs' cast-offs are helping to save the planet. [S]</desc>
+<end>2000</end>
+<start>1930</start>
+<title>Inside Out</title>
+  </programme>
+  <programme>
+<end>2030</end>
+<desc>Martin remains determined to help Stacey and goes to great lengths to protect her. After talking to Sharon, Kush realises he needs to step up his game. Also in HD. [AD,S]</desc>
+<title>EastEnders</title>
+<start>2000</start>
+  </programme>
+  <programme>
+<end>2100</end>
+<desc>9/10. The Unseen Bits: Rob Brydon, Lee Mack and David Mitchell return for an episode of previously unseen material from the comedy panel show, featuring a host of celebrity guests. Also in HD. [S]</desc>
+<start>2030</start>
+<title>Would I Lie to You?</title>
+  </programme>
+  <programme>
+<start>2100</start>
+<title>New Tricks</title>
+<end>2200</end>
+<desc>8/10. Blue Flower: Crime drama series. UCOS investigate the murder of Max Klein, an East German immigrant whose mysterious last words translated as 'blue flower'. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<desc>The latest national and international news, with reports from BBC correspondents worldwide. Also in HD. [S]</desc>
+<end>2230</end>
+<start>2200</start>
+<title>BBC News at Ten</title>
+  </programme>
+  <programme>
+<start>2230</start>
+<title>BBC London News</title>
+<desc>The latest news, sport and weather from London. [S] Followed by national weather.</desc>
+<end>2245</end>
+  </programme>
+  <programme>
+<end>2315</end>
+<desc>1/7. Birth: A week past her due date, Lorna springs some new ideas on Ken about baby care. Contains some strong language.  Also in HD. [AD,S]</desc>
+<title>Cuckoo</title>
+<start>2245</start>
+  </programme>
+  <programme>
+<start>2315</start>
+<title>MOTD: FA Cup Highlights</title>
+<end>2345</end>
+<desc>Highlights from the FA Cup as Manchester United make the trip to League One Shrewsbury in the fifth round of the competition. It will be the first ever meeting between the clubs. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>2345</start>
+<title>The Graham Norton Show</title>
+<desc>19/19. Compilation Show: Graham presents a selection of highlights from this series, featuring Matt Damon, Robert De Niro, Meryl Streep and Dame Maggie Smith. Contains adult humour.  Also in HD. [S]</desc>
+<end>0030</end>
+  </programme>
+  <programme>
+<title>Weather for the Week Ahead</title>
+<start>0030</start>
+<end>0035</end>
+<desc>Detailed weather forecast. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<title>BBC News</title>
+<start>0035</start>
+<end>0600</end>
+<desc>BBC One joins the BBC's rolling news channel for a night of news, with bulletins on the hour and the headlines every 15 minutes. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>0600</start>
+<title>Breakfast</title>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+<end>0915</end>
+  </programme>
+</channel>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Tue Feb 23 07:19:01 2016 -->
+<channel id="bbc1" source="XMLTV" date="28/02/2016">
+  <programme>
+<end>0735</end>
+<start>0600</start>
+<title>Breakfast</title>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>0900</end>
+<start>0735</start>
+<title>Match of the Day</title>
+<desc>Gary Lineker introduces highlights and reaction to the day's six Premier League matches, including Leicester City v Norwich City, West Ham v Sunderland and Chelsea v Southampton. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>Interviews with key newsmakers and cultural figures, and a look at what is happening in the world this week. Also in HD. [S]</desc>
+<end>1000</end>
+<start>0900</start>
+<title>The Andrew Marr Show</title>
+  </programme>
+  <programme>
+<title>The Big Questions</title>
+<start>1000</start>
+<end>1100</end>
+<desc>Nicky Campbell presents live moral, ethical and religious debate from Northumbria Students' Union, Newcastle. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>Andrew Neil and Tim Donovan with the latest political news, interviews and debate. [S]</desc>
+<end>1215</end>
+<start>1100</start>
+<title>Sunday Politics</title>
+  </programme>
+  <programme>
+<desc>Antiques challenge. The teams are in Leominster in Herefordshire, with experts Paul Laidlaw and Claire Rawle. Plus Tim Wonnacott visits Charles Darwin's home in Kent. Also in HD. [AD,S]</desc>
+<start>1215</start>
+<end>1300</end>
+<title>Bargain Hunt</title>
+<subtitle>Leominster</subtitle>
+  </programme>
+  <programme>
+<desc>The latest national and international news from the BBC. Also in HD. [S] Followed by Weather for the Week Ahead.</desc>
+<title>BBC News</title>
+<start>1300</start>
+<end>1315</end>
+  </programme>
+  <programme>
+<desc>Property redevelopment series. Presenters Martin Roberts and Lucy Alexander visit a mid-terrace in Derby, a flat in Surrey and a two-bedroom cottage in Burnley, Lancashire. Also in HD. [S]</desc>
+<end>1415</end>
+<start>1315</start>
+<title>Homes Under the Hammer</title>
+  </programme>
+  <programme>
+<desc>Property series. Jules Hudson and Sonali Shah showcase Herefordshire as they look back at two couples searching for dream rural homes in the county. Also in HD. [AD,S]</desc>
+<end>1515</end>
+<start>1415</start>
+<subtitle>Herefordshire</subtitle>
+<title>Escape to the Country</title>
+  </programme>
+  <programme>
+<desc>4/4. Celebrities take on baking challenges for Sport Relief. Sarah Millican hosts this fourth episode, featuring Alison Steadman, Ade Edmondson, Will Young and Morgana Robinson. Also in HD. [AD,S]</desc>
+<title>The Great Sport Relief Bake Off</title>
+<end>1615</end>
+<start>1515</start>
+  </programme>
+  <programme>
+<end>1650</end>
+<start>1615</start>
+<title>Songs of Praise</title>
+<desc>Aled Jones visits Port Talbot, home of Britain's largest steelworks, as 4,000 workers and the wider community await news of hundreds of redundancies. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>1735</end>
+<start>1650</start>
+<title>Pointless Celebrities</title>
+<desc>5/7. British Film: Stars of British films take part in the quiz presented by Alexander Armstrong and Richard Osman. Contestants include Phil Daniels, Clare Grogan and Thomas Turgoose. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>3/4. Santino &amp; Shelley: Documentary. An orphaned baby monkey must find his place in a troop, and a cheetah must learn to hunt so that she can be released back into the wild. Also in HD. [AD,S]</desc>
+<start>1735</start>
+<end>1835</end>
+<title>Nature's Miracle Orphans</title>
+  </programme>
+  <programme>
+<title>BBC News</title>
+<start>1835</start>
+<end>1850</end>
+<desc>The latest national and international news stories from the BBC News team. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>The latest news, sport and weather from London. [S] Followed by national weather.</desc>
+<title>BBC London News</title>
+<end>1900</end>
+<start>1850</start>
+  </programme>
+  <programme>
+<desc>Matt heads to Mersea Island to meet Richard Haward, a seventh-generation oyster fisherman. Also in HD. [S] Including Weather for the Week Ahead.</desc>
+<subtitle>Essex</subtitle>
+<title>Countryfile</title>
+<end>2000</end>
+<start>1900</start>
+  </programme>
+  <programme>
+<desc>Dr Turner prepares for the introduction of the contraceptive pill, while Patsy struggles to help a Bargee woman who is determined to give birth among her own community. Also in HD. [AD,S]</desc>
+<start>2000</start>
+<end>2100</end>
+<title>Call the Midwife</title>
+  </programme>
+  <programme>
+<end>2200</end>
+<start>2100</start>
+<title>The Night Manager</title>
+<desc>2/6. Drama series based on the John le Carré novel. On the Mediterranean island of Mallorca, Roper's life of luxury and calm is shattered. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<desc>The latest national and international news, with reports from BBC correspondents worldwide. Also in HD. [S]</desc>
+<title>BBC News</title>
+<start>2200</start>
+<end>2220</end>
+  </programme>
+  <programme>
+<desc>The latest news, sport and weather from London. [S] Followed by national weather.</desc>
+<title>BBC London News</title>
+<end>2230</end>
+<start>2220</start>
+  </programme>
+  <programme>
+<desc>Highlights and analysis of the day's two Premier League matches, Manchester United play Arsenal at Old Trafford and high-flying Tottenham face struggling Swansea. Also in HD. [S]</desc>
+<end>2330</end>
+<start>2230</start>
+<title>Match of the Day 2</title>
+  </programme>
+  <programme>
+<title>The Other Man</title>
+<end>0055</end>
+<start>2330</start>
+<desc>Drama about a husband whose wife suddenly disappears. Suspecting adultery, he sets out to track down the other man in her life. Contains some strong language.  Also in HD. [2008] [AD,S]</desc>
+<type>Film</type>
+  </programme>
+  <programme>
+<desc>Detailed weather forecast. Also in HD. [S]</desc>
+<end>0100</end>
+<start>0055</start>
+<title>Weather for the Week Ahead</title>
+  </programme>
+  <programme>
+<desc>BBC One joins the BBC's rolling news channel for a night of news, with bulletins on the hour and the headlines every 15 minutes. Also in HD. [S]</desc>
+<title>BBC News</title>
+<end>0600</end>
+<start>0100</start>
+  </programme>
+  <programme>
+<end>0915</end>
+<start>0600</start>
+<title>Breakfast</title>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+  </programme>
+</channel>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Tue Feb 23 07:19:05 2016 -->
+<channel id="bbc2" source="XMLTV" date="28/02/2016">
+  <programme>
+<title>This Is BBC Two</title>
+<end>0620</end>
+<start>0240</start>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>0705</end>
+<start>0620</start>
+<title>The A to Z of TV Gardening</title>
+<desc>18/25. Letter R: A look at some of the BBC's most popular gardening programmes and personalities, presented by Carol Kirkwood. Carol explores subjects that all begin with the letter R. [S]</desc>
+  </programme>
+  <programme>
+<title>Great British Garden Revival</title>
+<start>0705</start>
+<end>0805</end>
+<desc>1/10. Wild Flowers and Front Gardens: Television gardeners try to save the nation's gardening heritage. Monty Don campaigns for wild flowers and Joe Swift champions front gardens. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>0805</start>
+<end>0835</end>
+<title>An Island Parish</title>
+<desc>2/6. The End of an Era: Series following a year in the life of the most southerly islands of the Outer Hebrides. Easter brings good weather and a new air of optimism to Barra. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<start>0835</start>
+<end>0930</end>
+<title>Countryfile</title>
+<subtitle>Staffordshire</subtitle>
+<desc>Matt Baker and Ellie Harrison are in Staffordshire. Matt visits a school with farming at the heart of the curriculum. Ellie meets a couple who own a nature reserve. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>1100</end>
+<start>0930</start>
+<title>Saturday Kitchen Best Bites</title>
+<desc>James Martin takes a look back at some of his favourite recipes and best moments from Saturday Kitchen. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>13/16. Hearty and Wholesome: James Martin shares the recipes he cooks at home. James rustles up some warming winter food in his kitchen at home in Hampshire. Also in HD. [AD,S]</desc>
+<start>1100</start>
+<end>1145</end>
+<title>James Martin: Home Comforts</title>
+  </programme>
+  <programme>
+<title>The Best Dishes Ever</title>
+<end>1215</end>
+<start>1145</start>
+<desc>4/20. Winter Warmers: Ainsley Harriott introduces classic recipes from some of the BBC's best-loved television chefs. The menu includes Keith Floyd's beautiful beef provencal. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>The talking points from Saturday's top-flight fixtures and a look ahead to Sunday's Premier League matches. Manchester United take on Arsenal and Tottenham welcome Swansea. Also in HD. [S]</desc>
+<title>MOTD2 Extra</title>
+<end>1300</end>
+<start>1215</start>
+  </programme>
+  <programme>
+<type>Film</type>
+<desc>Western. Cowboy Logan Cates (Rory Calhoun) is caught travelling through Apache territory. He must fight his way out and rescue a woman on his way. Also in HD. [1958] [S]</desc>
+<start>1300</start>
+<end>1410</end>
+<title>Apache Territory</title>
+  </programme>
+  <programme>
+<desc>...Talking Pictures. A look at the careers of some of the greatest and most successful movie directors. [S]</desc>
+<start>1410</start>
+<end>1450</end>
+<title>Hollywood's Great Directors:...</title>
+  </programme>
+  <programme>
+<title>The Philadelphia Story</title>
+<start>1450</start>
+<end>1640</end>
+<type>Film</type>
+<desc>Sophisticated comedy classic in which a wealthy socialite's wedding plans are thrown into disarray by the arrival of her playboy ex-husband. Also in HD. [B&amp;W, 1940] [S]</desc>
+  </programme>
+  <programme>
+<title>Tron</title>
+<end>1810</end>
+<start>1640</start>
+<desc>A computer genius is sucked into a computer game where the prize is his own life. Also in HD. [1982] [S]</desc>
+<type>Film</type>
+  </programme>
+  <programme>
+<title>Flog It!</title>
+<subtitle>Malvern</subtitle>
+<start>1810</start>
+<end>1900</end>
+<desc>Paul Martin is joined by experts Kate Bateman and Adam Partridge as they explore the collectibles at a valuation day in the spa town of Malvern. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>Highlights from week three of the 2016 Six Nations. Reigning champions Ireland travelled to England, Wales entertained France while Scotland took on Italy in Rome. Also in HD. [S]</desc>
+<end>2000</end>
+<start>1900</start>
+<title>Six Nations Rugby Special</title>
+  </programme>
+  <programme>
+<title>Dragons' Den: Pitches to Riches</title>
+<end>2100</end>
+<start>2000</start>
+<desc>Re-live the most extraordinary moments from the past 13 series of Dragons' Den, presented by self-confessed Dragons' Den obsessive Richard Osman. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<title>Let's Play Darts for Sport Relief</title>
+<end>2200</end>
+<start>2100</start>
+<desc>2/4. Gabby Logan hosts a winner-takes-all tournament for Sport Relief. Robbie 'The Treblemaker' Savage battles it out against Tim Vine 'The Punaway Train'. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<title>The People v OJ Simpson:...</title>
+<start>2200</start>
+<end>2240</end>
+<desc>...American Crime Story. 2/10. The Run of His Life: Lawyer Robert Kardashian struggles to prevent events escalating into further tragedy. Contains adult themes.  [AD,S]</desc>
+  </programme>
+  <programme>
+<title>The Reluctant Fundamentalist</title>
+<end>0040</end>
+<start>2240</start>
+<desc>Tension and alienation thrive in this adaptation of the bestselling novel by Moshin Hamid. A young Pakistani man, living in New York, finds his loyalties shaken after 9/11. Also in HD. [2012] [S]</desc>
+<type>Film</type>
+  </programme>
+  <programme>
+<desc>Drama about a teenage boy trying to adjust to a new neighbourhood, school and friends, while dealing with his unpredictable family. Contains strong language.  [2008] [S]</desc>
+<type>Film</type>
+<end>0210</end>
+<start>0040</start>
+<title>The Black Balloon</title>
+  </programme>
+  <programme>
+<subtitle>Staffordshire</subtitle>
+<title>Countryfile</title>
+<end>0300</end>
+<start>0210</start>
+<desc>Matt Baker and Ellie Harrison are in Staffordshire. Matt visits a school with farming at the heart of the curriculum. Ellie meets a couple who own a nature reserve. [S,SL]</desc>
+  </programme>
+  <programme>
+<end>0400</end>
+<start>0300</start>
+<subtitle>All Fall Down</subtitle>
+<title>Holby City</title>
+<desc>Hospital drama. Hanssen questions whether Bernie is ready to leave the army behind after he catches her breaking hospital rules. Arthur receives life-changing news. [AD,S,SL]</desc>
+  </programme>
+  <programme>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<title>This Is BBC Two</title>
+<start>0400</start>
+<end>0615</end>
+  </programme>
+</channel>

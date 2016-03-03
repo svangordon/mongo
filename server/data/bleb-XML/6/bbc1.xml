@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Tue Feb 23 05:42:02 2016 -->
+<channel id="bbc1" source="XMLTV" date="29/02/2016">
+  <programme>
+<start>0600</start>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+<title>Breakfast</title>
+<end>0915</end>
+  </programme>
+  <programme>
+<start>0915</start>
+<title>Heir Hunters</title>
+<end>1000</end>
+<desc>1/20. A chance conversation provides a new lead in a case that was shelved for several years. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<end>1100</end>
+<title>Homes Under the Hammer</title>
+<desc>Property renovation series. Martin Roberts, Lucy Alexander and Dion Dublin look at auction buys, including a family home in County Durham and a rental investment in Derby. Also in HD. [S]</desc>
+<start>1000</start>
+  </programme>
+  <programme>
+<title>Countryside 999</title>
+<end>1145</end>
+<desc>1/15. Series following rural emergency services in the British Isles. A mid-air paragliding collision has a helicopter squadron speeding to a cliff rescue on the Isle of Arran. Also in HD. [S]</desc>
+<start>1100</start>
+  </programme>
+  <programme>
+<desc>1/10. Series which sees insurance fraudsters caught on camera. A driver's hopes of a bumper personal injury claim take a hefty knock when CCTV shows what really happened. Also in HD. [S]</desc>
+<title>Claimed and Shamed</title>
+<end>1215</end>
+<start>1145</start>
+  </programme>
+  <programme>
+<start>1215</start>
+<subtitle>Epsom</subtitle>
+<title>Bargain Hunt</title>
+<end>1300</end>
+<desc>Christina Trevanion presents from Dorking's West Street. Caroline Hawley and David Harper are the experts guiding the teams, and Jonathan Pratt is the auctioneer. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
+<title>BBC News at One</title>
+<end>1330</end>
+<start>1300</start>
+  </programme>
+  <programme>
+<start>1330</start>
+<end>1345</end>
+<title>BBC London News</title>
+<desc>The latest news, sport and weather from London. [S]</desc>
+  </programme>
+  <programme>
+<subtitle>Monique</subtitle>
+<start>1345</start>
+<desc>Heston and Ruhma are present at a tragedy and have to deal with the consequences. Ayesha confronts Ike about his motives, while a chance encounter gives Karen an idea. Also in HD. [AD,S]</desc>
+<title>Doctors</title>
+<end>1415</end>
+  </programme>
+  <programme>
+<start>1415</start>
+<title>Moving On</title>
+<end>1500</end>
+<desc>1/5. Madge: Contemporary drama. Fun-loving 60-something Madge has a loving relationship with former magistrate Eric, but she is also hiding a very big secret. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<desc>Property series. Alistair Appleton helps a couple with a budget £470k look for a house in rural Shropshire. Alistair also visits a farm that is producing quinoa. Also in HD. [AD,S]</desc>
+<end>1545</end>
+<title>Escape to the Country</title>
+<subtitle>Shropshire</subtitle>
+<start>1500</start>
+  </programme>
+  <programme>
+<start>1545</start>
+<desc>...Goodman. 21/25. Jake Wood: Len Goodman takes EastEnders bad boy Jake Wood, aka Max Branning, to the stunning Cornish coast to relive his school adventure holiday of 1980. Also in HD. [AD,S]</desc>
+<title>Holiday of My Lifetime with Len...</title>
+<end>1630</end>
+  </programme>
+  <programme>
+<start>1630</start>
+<subtitle>Muncaster Castle</subtitle>
+<title>Flog It!</title>
+<end>1715</end>
+<desc>Antiques series. The valuation day venue is Muncaster Castle in Cumbria. Paul Martin finds out about Tom Fool, the court jester who lived at the castle. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>1715</start>
+<title>Pointless</title>
+<end>1800</end>
+<desc>Quiz in which contestants try to score as few points as possible by plumbing the depths of their general knowledge to come up with the answers no-one else can think of. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>1800</start>
+<end>1830</end>
+<title>BBC News at Six</title>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<title>BBC London News</title>
+<end>1900</end>
+<desc>The latest news, sport and weather from London. [S]</desc>
+<start>1830</start>
+  </programme>
+  <programme>
+<start>1900</start>
+<end>1930</end>
+<title>The One Show</title>
+<desc>If it's got Britain talking then it will get talked about on The One Show. Presented by Matt Baker and Alex Jones. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>2000</end>
+<title>Inside Out</title>
+<desc>The doctors who say that stress is destroying their mental health. How a shortage of district nurses is damaging community care. [S]</desc>
+<start>1930</start>
+  </programme>
+  <programme>
+<start>2000</start>
+<desc>Further truths come to light for Whitney and Lee, but will they stand by each other? Abi begins to have doubts about her lies - is the truth about to come out? Also in HD. [AD,S]</desc>
+<end>2030</end>
+<title>EastEnders</title>
+  </programme>
+  <programme>
+<end>2130</end>
+<title>Cops, Criminals, Corruption:...</title>
+<desc>...The Inside Story. The inside story of how an organised crime syndicate arranged a hit on three policemen. Also in HD. [S]</desc>
+<start>2030</start>
+  </programme>
+  <programme>
+<desc>4/6. Mammy's Valentine: Sitcom. Everyone has a date for Valentine's Day except Agnes. Can she really start internet dating at her age? Contains adult humour and strong language.  Also in HD. [S]</desc>
+<end>2200</end>
+<title>Mrs Brown's Boys</title>
+<start>2130</start>
+  </programme>
+  <programme>
+<start>2200</start>
+<desc>The latest national and international news, with reports from BBC correspondents worldwide. Also in HD. [S]</desc>
+<title>BBC News at Ten</title>
+<end>2230</end>
+  </programme>
+  <programme>
+<start>2230</start>
+<desc>The latest news, sport and weather from London. [S] Followed by national weather.</desc>
+<end>2245</end>
+<title>BBC London News</title>
+  </programme>
+  <programme>
+<desc>2/7. The Application: Comedy series about a cuckoo in the family nest. Rachel has a chance to get the job of her dreams - and Ken and Dale are on hand to help out. Also in HD. [AD,S]</desc>
+<title>Cuckoo</title>
+<end>2315</end>
+<start>2245</start>
+  </programme>
+  <programme>
+<start>2315</start>
+<title>Have I Got Election News for You</title>
+<end>2345</end>
+<desc>5/9. Jo Brand unpicks the election aftermath with guests Romesh Ranganathan and Jon Snow. Contains language which may offend.  Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>3/6. Stand-up comedy from the Hammersmith Apollo. The sometimes controversial Frankie Boyle introduces sets from Simon Evans and Aisling Bea. Contains adult humour.  Also in HD. [S]</desc>
+<title>Live at the Apollo</title>
+<end>0030</end>
+<start>2345</start>
+  </programme>
+  <programme>
+<end>0035</end>
+<title>Weather for the Week Ahead</title>
+<desc>Detailed weather forecast. Also in HD. [S]</desc>
+<start>0030</start>
+  </programme>
+  <programme>
+<start>0035</start>
+<desc>BBC One joins the BBC's rolling news channel for a night of news, with bulletins on the hour and the headlines every 15 minutes. Also in HD. [S]</desc>
+<title>BBC News</title>
+<end>0600</end>
+  </programme>
+  <programme>
+<start>0600</start>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+<title>Breakfast</title>
+<end>0915</end>
+  </programme>
+</channel>

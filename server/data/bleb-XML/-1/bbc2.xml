@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Mon Feb 22 08:39:06 2016 -->
+<channel id="bbc2" source="XMLTV" date="22/02/2016">
+  <programme>
+<title>This Is BBC Two</title>
+<start>0500</start>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<end>0615</end>
+  </programme>
+  <programme>
+<desc>20/20. Consumer programme. The Housing Enforcers team up with the police to raid a property, and Matt Allwright visits a grandad whose rented home is infested with flies. Also in HD. [S]</desc>
+<end>0700</end>
+<start>0615</start>
+<title>The Housing Enforcers</title>
+  </programme>
+  <programme>
+<desc>11/16. Shah/Lloyd Family: In 2014, Aaron Shah spent a week in Adelaide, hoping to persuade partner Amy to make the move there for good. Is it Australia the couple now calls home? Also in HD. [S]</desc>
+<end>0745</end>
+<start>0700</start>
+<title>Wanted Down Under Revisited</title>
+  </programme>
+  <programme>
+<end>0815</end>
+<desc>5/10. Series which sees insurance fraudsters caught on camera. A moped rider's poor attempt to defraud a council for compensation lands him in front of a High Court judge. Also in HD. [S]</desc>
+<start>0745</start>
+<title>Claimed and Shamed</title>
+  </programme>
+  <programme>
+<desc>2/15. Documentary series following British members of the Australian emergency services. A flying doctor swoops to the rescue after a small boy becomes trapped in machinery. [AD,S,SL]</desc>
+<end>0845</end>
+<start>0815</start>
+<title>Emergency Rescue Down Under</title>
+  </programme>
+  <programme>
+<desc>Entertainment series. Derren Brown causes confusion on the London Underground, Criss Angel performs a trick with some elephants and Keith Barry's finale is literally dynamite. [S,SL]</desc>
+<end>0915</end>
+<title>Now You See It</title>
+<start>0845</start>
+  </programme>
+  <programme>
+<title>Victoria Derbyshire</title>
+<start>0915</start>
+<desc>The BBC's daily news and current affairs programme with original stories, exclusive interviews, audience debate and breaking news. Also in HD. [S]</desc>
+<end>1100</end>
+  </programme>
+  <programme>
+<start>1100</start>
+<title>BBC News</title>
+<desc>Twenty-four hours a day, the latest national and international stories as they break. Also in HD. [S]</desc>
+<end>1200</end>
+  </programme>
+  <programme>
+<end>1300</end>
+<desc>Jo Coburn presents the latest political developments and discusses the EU referendum with Leave campaigner George Galloway. Plus the co-writer of Yes Minister, Jonathan Lynn. Also in HD. [S]</desc>
+<start>1200</start>
+<title>Daily Politics</title>
+  </programme>
+  <programme>
+<end>1305</end>
+<desc>22/23. Whitstable to Red Sands Sea Fort: Beginning at the famous Oyster Festival in Whitstable, Neil Oliver ventures offshore to the remarkable Red Sands Sea Forts. Also in HD. [S]</desc>
+<start>1300</start>
+<title>Coast</title>
+  </programme>
+  <programme>
+<start>1305</start>
+<title>The Pallisers</title>
+<desc>20/26. Based on the six political novels by Anthony Trollope. A political crisis faces the country and a coalition government is imminent - but who will lead it? [S]</desc>
+<end>1400</end>
+  </programme>
+  <programme>
+<start>1400</start>
+<title>Who Do You Think You Are?</title>
+<end>1500</end>
+<desc>1/10. Julie Walters: Celebrity genealogy series. Actress and national treasure Julie Walters follows her roots back to rural Ireland on the trail of her great-grandfather. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<desc>8/10. Answer Me, My Love: Australian period drama. Sarah arrives in Paris to try to reconnect with her husband and is shocked by what she finds. Also in HD. [S]</desc>
+<end>1545</end>
+<start>1500</start>
+<title>A Place to Call Home</title>
+  </programme>
+  <programme>
+<start>1545</start>
+<title>The Best Dishes Ever</title>
+<end>1615</end>
+<desc>11/20. Party Time: It is party time and Lorraine Pascale serves up white chocolate lollipops. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>1715</end>
+<desc>6/7. The Last Frontier: What draws humans to the coldest and most hostile reaches of our planet? Also in HD. [AD,S]</desc>
+<title>Frozen Planet</title>
+<start>1615</start>
+  </programme>
+  <programme>
+<start>1715</start>
+<title>Bargain Hunt</title>
+<end>1800</end>
+<desc>Antiques challenge. Tim Wonnacott is in windy Newark with experts Philip Serrell and Anita Manning as a team of cake makers takes on a pair of molecular biologists. Also in HD. [AD,S]</desc>
+<subtitle>Newark</subtitle>
+  </programme>
+  <programme>
+<start>1800</start>
+<title>Eggheads</title>
+<desc>Jeremy Vine hosts the show in which teams from all over the UK take on probably the greatest quiz team in Britain, made up of some of the country's top quiz champions. Also in HD. [S]</desc>
+<end>1830</end>
+  </programme>
+  <programme>
+<start>1830</start>
+<title>Great British Railway Journeys</title>
+<desc>1/20. Ayr to Stewarton: Michael Portillo embarks on a journey through southern Scotland from west to east. From Ayr, he admires Ailsa Craig before getting to grips with curling. Also in HD. [AD,S]</desc>
+<end>1900</end>
+  </programme>
+  <programme>
+<title>The Great Interior Design...</title>
+<start>1900</start>
+<end>2000</end>
+<desc>...Challenge. Self Build: Amateur designing competition. In the final heat, four designers must transform a bedroom each in a self-build estate in south London. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<start>2000</start>
+<title>University Challenge</title>
+<desc>29/37. The quarter-final stage continues as teams representing two more universities fight it out to reach the next stage of the competition. Jeremy Paxman asks the questions. Also in HD. [S]</desc>
+<end>2030</end>
+  </programme>
+  <programme>
+<start>2030</start>
+<title>Mary Berry's Foolproof Cooking</title>
+<desc>4/6. Mary Berry shares a selection of her foolproof recipes. Mary prepares a simple and easy herb flatbread that the whole family can muck in with. Also in HD. [AD,S]</desc>
+<end>2100</end>
+  </programme>
+  <programme>
+<title>The People v OJ Simpson:...</title>
+<start>2100</start>
+<desc>...American Crime Story. 2/10. The Run of His Life: Lawyer Robert Kardashian struggles to prevent events escalating into further tragedy. Contains adult themes.  Also in HD. [AD,S]</desc>
+<end>2145</end>
+  </programme>
+  <programme>
+<title>QI XL</title>
+<start>2145</start>
+<end>2230</end>
+<desc>13/16. Monster Mash: Stephen Fry goes looking for monsters with Sara Pascoe, Josh Widdicombe and Phill Jupitus. Contains some strong language.  Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<title>Newsnight</title>
+<start>2230</start>
+<desc>In-depth investigation and analysis of the stories behind the day's headlines with Evan Davis. Also in HD. [S] Followed by weather.</desc>
+<end>2315</end>
+  </programme>
+  <programme>
+<desc>Series in which budding entrepreneurs pitch business ideas to multimillionaires. A former barrister gets a lesson in margins from Touker Suleyman. Also in HD. [AD,S]</desc>
+<end>0015</end>
+<title>Dragons' Den</title>
+<start>2315</start>
+  </programme>
+  <programme>
+<start>0015</start>
+<title>Phone Shop Idol</title>
+<end>0045</end>
+<desc>4/6. The Head to Head: Petty rivalries become full-blown conflicts as the competition heats up. Contains some strong language.  Also in HD. [S,SL]</desc>
+  </programme>
+  <programme>
+<title>The Celebrity Apprentice USA</title>
+<start>0045</start>
+<desc>4/14. Failure to Launch: The celebrities must create a 10-minute sponsorship presentation for a compact car. Contains adult themes.  Also in HD. [S,SL]</desc>
+<end>0210</end>
+  </programme>
+  <programme>
+<end>0310</end>
+<desc>12/21. The last of the quarter-finals of the culinary competition. The six best chefs from the week's heats compete in two challenges set by judges Marcus Wareing and Monica Galetti. [S,SL]</desc>
+<start>0210</start>
+<title>MasterChef: The Professionals</title>
+  </programme>
+  <programme>
+<start>0310</start>
+<title>This Is BBC Two</title>
+<end>0615</end>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+  </programme>
+</channel>

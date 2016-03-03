@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Sun Feb 21 07:19:05 2016 -->
+<channel id="bbc2" source="XMLTV" date="26/02/2016">
+  <programme>
+<title>This Is BBC Two</title>
+<start>0225</start>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<end>0615</end>
+  </programme>
+  <programme>
+<end>0700</end>
+<title>Food: Truth or Scare</title>
+<desc>4/5. Gloria Hunniford and Chris Bavin investigate whether we should really be giving up bacon and sausages, after new research suggested they're bad for us. Also in HD. [AD,S]</desc>
+<start>0615</start>
+  </programme>
+  <programme>
+<start>0700</start>
+<desc>15/16. Howes Family: In 2013, Dave Howes was hoping a trial week in Australia would persuade wife Laurra to move their family there for good. Have they moved two years later? Also in HD. [S]</desc>
+<title>Wanted Down Under Revisited</title>
+<end>0745</end>
+  </programme>
+  <programme>
+<end>0815</end>
+<start>0745</start>
+<desc>9/10. Series which sees insurance fraudsters caught on camera. A fraudster goes on the run after a claim for over £100,000 worth of camera equipment is exposed as a fraud. Also in HD. [S]</desc>
+<title>Claimed and Shamed</title>
+  </programme>
+  <programme>
+<title>MasterChef: The Professionals</title>
+<desc>15/21. Knockout week of the culinary competition. The chefs travel to Lord's Cricket Ground, where they cook a three-course menu for ex-England captain Mike Gatting and guests. [S,SL]</desc>
+<start>0815</start>
+<end>0915</end>
+  </programme>
+  <programme>
+<end>1100</end>
+<title>Victoria Derbyshire</title>
+<desc>The BBC's daily news and current affairs programme with original stories, exclusive interviews, audience debate and breaking news. Also in HD. [S]</desc>
+<start>0915</start>
+  </programme>
+  <programme>
+<title>BBC News</title>
+<desc>The latest national and international news, plus top interviews and analysis. Also in HD. [S]</desc>
+<start>1100</start>
+<end>1200</end>
+  </programme>
+  <programme>
+<title>Daily Politics</title>
+<desc>Andrew Neil with the latest political news, interviews and debate. Also in HD. [S]</desc>
+<start>1200</start>
+<end>1300</end>
+  </programme>
+  <programme>
+<title>Coast</title>
+<start>1300</start>
+<subtitle>John Paul Jones at Whitehaven</subtitle>
+<desc>Neil Oliver discovers why a delegation from the US Navy is sent over to the port of Whitehaven every year to honour the Scot John Paul Jones. [S]</desc>
+<end>1305</end>
+  </programme>
+  <programme>
+<title>The Pallisers</title>
+<desc>23/26. Based on the six political novels by Anthony Trollope. Plantagenet has paid Lopez's election expenses and Lopez takes his version of the election expenses story to Quintus Slide. [S]</desc>
+<start>1305</start>
+<end>1400</end>
+  </programme>
+  <programme>
+<end>1500</end>
+<desc>8/10. Anita Rani: Anita Rani finds out what happened to her grandfather during the Partition of India. Contains some upsetting scenes.  Also in HD. [AD,S]</desc>
+<start>1400</start>
+<title>Who Do You Think You Are?</title>
+  </programme>
+  <programme>
+<title>A Place to Call Home</title>
+<desc>2/10. L'Chaim, to Life: Australian period drama. On returning to Ash Park, George tells the family that he is going to make an important announcement at dinner. Also in HD. [S]</desc>
+<start>1500</start>
+<end>1550</end>
+  </programme>
+  <programme>
+<end>1620</end>
+<title>The Best Dishes Ever</title>
+<start>1550</start>
+<desc>15/20. Mediterranean Favourites: Recipes from some of the BBC's best-loved TV chefs. Ainsley celebrates dishes from across the Channel, including the Greedy Italians' linguine. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<title>The Life of Mammals</title>
+<start>1620</start>
+<desc>3/10. Plant Predators: Documentary series. David Attenborough meets the earth's most astounding herbivores, whose prey is armoured, indigestible and sometimes poisonous. [AD,S]</desc>
+<end>1720</end>
+  </programme>
+  <programme>
+<subtitle>Stafford</subtitle>
+<desc>Antiques challenge. Tim Wonnacott and the teams travel to the Staffordshire Showground to search for bargains with experts Christina Trevanion and Thomas Plant. Also in HD. [AD,S]</desc>
+<start>1720</start>
+<title>Bargain Hunt</title>
+<end>1800</end>
+  </programme>
+  <programme>
+<end>1830</end>
+<start>1800</start>
+<desc>Jeremy Vine hosts the show in which teams from all over the UK take on probably the greatest quiz team in Britain, made up of some of the country's top quiz champions. Also in HD. [S]</desc>
+<title>Eggheads</title>
+  </programme>
+  <programme>
+<end>1900</end>
+<title>Great British Railway Journeys</title>
+<desc>5/20. St Andrew's to Edinburgh: On the last leg of his journey across Scotland from west to east, Michael Portillo pays homage to the birthplace of golf at St Andrews. Also in HD. [AD,S]</desc>
+<start>1830</start>
+  </programme>
+  <programme>
+<end>2000</end>
+<title>Celebrity Antiques Road Trip</title>
+<start>1900</start>
+<desc>11/20. Presenters John Craven and Johnny Ball search Hampshire and Dorset for antiques, aided by experts Charles Hanson and Philip Serrell. [S]</desc>
+  </programme>
+  <programme>
+<title>Mastermind</title>
+<start>2000</start>
+<desc>27/31. John Humphrys asks the questions as the hunt continues for the nation's Mastermind. Subjects in this semi-final include Men Behaving Badly and Inspector Barnaby novels. Also in HD. [S]</desc>
+<end>2030</end>
+  </programme>
+  <programme>
+<end>2100</end>
+<title>Canals - The Making of a Nation</title>
+<start>2030</start>
+<desc>Liz McIvor explores how the nation's canals were saved following years of postwar neglect, becoming places of tranquillity and popular for boating holidays. Also in HD. [S]</desc>
+<subtitle>Heritage</subtitle>
+  </programme>
+  <programme>
+<type>Film</type>
+<end>2230</end>
+<desc>A journalist helps a woman who was forced to give up her son for adoption. Contains some strong language.  Also in HD. [2013] [AD,S]</desc>
+<start>2100</start>
+<title>Philomena</title>
+  </programme>
+  <programme>
+<title>Newsnight</title>
+<start>2230</start>
+<desc>In-depth investigation and analysis of the stories behind the day's headlines with Emily Maitlis. Also in HD. [S]</desc>
+<end>2300</end>
+  </programme>
+  <programme>
+<end>2335</end>
+<desc>22/27. Lynn Barber: Lynn Barber talks to Rob Delaney and Ruby Wax about mental health and mindfulness. Also in HD. [S] Followed by weather.</desc>
+<start>2300</start>
+<title>Artsnight</title>
+  </programme>
+  <programme>
+<end>0110</end>
+<type>Film</type>
+<title>The Disappearance of Alice Creed</title>
+<start>2335</start>
+<desc>The daughter of a millionaire is abducted and held against her will by two ex-convicts. Contains very strong language, some sexual content and some violence.  Also in HD. [2009] [AD,S]</desc>
+  </programme>
+  <programme>
+<desc>Topical debate with a panel of prominent public figures and an invited audience. [S,SL]</desc>
+<start>0110</start>
+<title>Question Time</title>
+<end>0210</end>
+  </programme>
+  <programme>
+<title>The Real Marigold Hotel</title>
+<desc>3/3. With one week left of their Indian adventure, what conclusions will the celebrities reach about the realities of retiring to the other side of the world? [AD,S,SL]</desc>
+<start>0210</start>
+<end>0310</end>
+  </programme>
+  <programme>
+<end>0555</end>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<start>0310</start>
+<title>This Is BBC Two</title>
+  </programme>
+  <programme>
+<end>0655</end>
+<desc>Property redevelopment series. Martin Roberts and Lucy Alexander visit a property in Jarrow, Tyne and Wear, two flats in Harlesden, London, and a terraced house in Salford. Also in HD. [S]</desc>
+<start>0555</start>
+<title>Homes Under the Hammer</title>
+  </programme>
+</channel>

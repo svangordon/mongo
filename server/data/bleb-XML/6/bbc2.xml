@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Tue Feb 23 05:42:06 2016 -->
+<channel id="bbc2" source="XMLTV" date="29/02/2016">
+  <programme>
+<title>This Is BBC Two</title>
+<end>0615</end>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<start>0400</start>
+  </programme>
+  <programme>
+<title>Food: Truth or Scare</title>
+<end>0700</end>
+<desc>5/5. Gloria Hunniford and Chris Bavin unpick the dramatic shift in advice on alcohol consumption. Plus the shocking secrets of how Britain snacks are revealed. Also in HD. [AD,S]</desc>
+<start>0615</start>
+  </programme>
+  <programme>
+<desc>16/16. O'Connor Family: Suffering from ME, Mum Vicky O'Connor believed Australia's climate could improve her health. Has the trial week there persuaded the family to move? Also in HD. [S]</desc>
+<end>0745</end>
+<title>Wanted Down Under Revisited</title>
+<start>0700</start>
+  </programme>
+  <programme>
+<desc>10/10. Series which sees insurance fraudsters caught on camera. The criminals behind a car insurance fraud are jailed after one of the gang makes a confession. Also in HD. [S]</desc>
+<title>Claimed and Shamed</title>
+<end>0815</end>
+<start>0745</start>
+  </programme>
+  <programme>
+<desc>5/15. Following Brits working in Australia's emergency services. Two British cops hunt for criminals on the streets of Australia and discover one of their suspects is another Brit. [AD,S,SL]</desc>
+<end>0845</end>
+<title>Emergency Rescue Down Under</title>
+<start>0815</start>
+  </programme>
+  <programme>
+<end>0915</end>
+<title>Mary Berry's Foolproof Cooking</title>
+<desc>4/6. Mary Berry shares a selection of her foolproof recipes. Mary prepares a simple and easy herb flatbread that the whole family can muck in with. [AD,S,SL]</desc>
+<start>0845</start>
+  </programme>
+  <programme>
+<start>0915</start>
+<desc>The BBC's daily news and current affairs programme with original stories, exclusive interviews, audience debate and breaking news. Also in HD. [S]</desc>
+<title>Victoria Derbyshire</title>
+<end>1100</end>
+  </programme>
+  <programme>
+<end>1200</end>
+<title>BBC News</title>
+<desc>Twenty-four hours a day, the latest national and international stories as they break. Also in HD. [S]</desc>
+<start>1100</start>
+  </programme>
+  <programme>
+<end>1300</end>
+<title>Daily Politics</title>
+<desc>Jo Coburn with the latest political news, interviews and debate. Also in HD. [S]</desc>
+<start>1200</start>
+  </programme>
+  <programme>
+<desc>Neil Oliver explores the extraordinary story of building Britain's most famous lighthouse on the perilous Eddystone rocks. [S]</desc>
+<title>Coast</title>
+<end>1305</end>
+<subtitle>Lighthouse</subtitle>
+<start>1300</start>
+  </programme>
+  <programme>
+<start>1305</start>
+<end>1400</end>
+<title>The Pallisers</title>
+<desc>24/26. Lopez's suicide is blamed on the coalition government. A small houseparty at Matching is to include Frank Tregear and Silverbridge's friend Lady Mabel Grex. [S]</desc>
+  </programme>
+  <programme>
+<start>1400</start>
+<desc>6/10. Alex Kingston: Celebrity genealogy series. Actress Alex Kingston sets out to learn more about her great-grandfather William Keevil, who died during the First World War. Also in HD. [AD,S]</desc>
+<title>Who Do You Think You Are?</title>
+<end>1500</end>
+  </programme>
+  <programme>
+<start>1500</start>
+<desc>3/10. Somewhere Beyond the Sea: Australian period drama. Finding that Sarah is also in Sydney, Elizabeth arranges a meeting at which she is able to thank her for saving George's life. Also in HD. [S]</desc>
+<title>A Place to Call Home</title>
+<end>1550</end>
+  </programme>
+  <programme>
+<start>1550</start>
+<desc>4/10. Chisellers: David Attenborough looks at rodents, who possess incisor teeth with chisel-sharp enamel. Among the animals observed are the agouti, the beaver and the capybara. [AD,S]</desc>
+<title>The Life of Mammals</title>
+<end>1650</end>
+  </programme>
+  <programme>
+<start>1650</start>
+<title>Terry and Mason's Great Food Trip</title>
+<end>1720</end>
+<desc>1/20. Weymouth: The sun shines on Terry Wogan and Mason McQueen in Weymouth as they scour the region to discover local dishes and culinary treats from this beautiful seaside town. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>Antiques challenge. Tim Wonnacott presents from Brackley in Northamptonshire. Assisting the two teams are experts Catherine Southon and Anita Manning. Also in HD. [AD,S]</desc>
+<end>1800</end>
+<title>Bargain Hunt</title>
+<subtitle>Brackley</subtitle>
+<start>1720</start>
+  </programme>
+  <programme>
+<start>1800</start>
+<title>Eggheads</title>
+<end>1830</end>
+<desc>Jeremy Vine hosts the show where every day a new team of challengers take on what is probably the greatest quiz team in Britain, made up of some of the country's top quizzers. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>1830</start>
+<desc>1/25. What is new and what is going to be good on TV this week. Telly legends, celebrity guests and TV insiders share their favourite TV shows from past and present. Also in HD. [S]</desc>
+<title>Too Much TV</title>
+<end>1900</end>
+  </programme>
+  <programme>
+<start>1900</start>
+<desc>...Challenge. Coastal Cottages: The last four designers redesign a sitting room each and face a team challenge. Also in HD. [AD,S]</desc>
+<title>The Great Interior Design...</title>
+<end>2000</end>
+  </programme>
+  <programme>
+<start>2000</start>
+<desc>30/37. In another quarter-final match, two teams of students aim to reach the next stage of the quiz. Jeremy Paxman asks the questions. Also in HD. [S]</desc>
+<end>2030</end>
+<title>University Challenge</title>
+  </programme>
+  <programme>
+<start>2030</start>
+<end>2100</end>
+<title>Mary Berry's Foolproof Cooking</title>
+<desc>5/6. Mary Berry shares a selection of her foolproof recipes. Mary shares recipes for those days when you are simply run off your feet, including a roasted cauliflower dish. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<start>2100</start>
+<end>2145</end>
+<title>The People v OJ Simpson:...</title>
+<desc>...American Crime Story. 3/10. The Dream Team: Drama series. Robert Shapiro shops around for legal support while practicality and politics dictate the prosecution's approach. [AD,S]</desc>
+  </programme>
+  <programme>
+<start>2145</start>
+<end>2230</end>
+<title>QI XL</title>
+<desc>14/16. Messy: Stephen Fry mucks about with Sarah Millican, Eddie Kadi, Noel Fielding and Alan Davies. Contains some strong language.  Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>In-depth investigation and analysis of the stories behind the day's headlines with Evan Davis. Also in HD. [S] Followed by weather.</desc>
+<end>2315</end>
+<title>Newsnight</title>
+<start>2230</start>
+  </programme>
+  <programme>
+<title>Dragons' Den: Pitches to Riches</title>
+<end>0015</end>
+<desc>Re-live the most extraordinary moments from the past 13 series of Dragons' Den, presented by self-confessed Dragons' Den obsessive Richard Osman. Also in HD. [AD,S]</desc>
+<start>2315</start>
+  </programme>
+  <programme>
+<title>Phone Shop Idol</title>
+<end>0045</end>
+<desc>5/6. The Five Phone Challenge: At a top London hotel, the remaining 12 competitors duke it out for the ultimate prize. Contains some strong language.  [S,SL]</desc>
+<start>0015</start>
+  </programme>
+  <programme>
+<desc>5/14. I'm Going to Mop the Floor with You: The teams must develop a viral video for a new mop. Contains adult themes.  [S,SL]</desc>
+<title>The Celebrity Apprentice USA</title>
+<end>0215</end>
+<start>0045</start>
+  </programme>
+  <programme>
+<start>0215</start>
+<desc>16/21. Semi-final of the culinary competition. The first two semi-finalists cook alongside joint Professional MasterChef champion Anton Piotrowski during a busy lunchtime service. [S,SL]</desc>
+<title>MasterChef: The Professionals</title>
+<end>0315</end>
+  </programme>
+  <programme>
+<start>0315</start>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<title>This Is BBC Two</title>
+<end>0615</end>
+  </programme>
+</channel>

@@ -16,3 +16,5 @@ Okay, so what are things that we'd like to get in a query string?
 	Okay, here's what's clear to me: I'm really unsure what the optimal data structure is. Is it better to embed the shows as a sub-document of each network day?
 
 	Oh for the cutoff, i recently changed it to 05: 59 but it probably should be 06:01.
+
+	The routes are like super effed?

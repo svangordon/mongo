@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Tue Feb 23 08:39:06 2016 -->
+<channel id="bbc2" source="XMLTV" date="23/02/2016">
+  <programme>
+<end>0615</end>
+<title>This Is BBC Two</title>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<start>0310</start>
+  </programme>
+  <programme>
+<start>0615</start>
+<title>Food: Truth or Scare</title>
+<end>0700</end>
+<desc>1/5. Consumer series. Gloria Hunniford discovers whether the vitamins she takes each day are necessary or if she can get all the nutrients she needs from her food? Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<desc>12/16. Barker Family: In 2013, 18-year-old Richele Barker was determined to persuade mum Lorraine to move to New Zealand with her. Two years later, is it where they now call home? Also in HD. [S]</desc>
+<end>0745</end>
+<title>Wanted Down Under Revisited</title>
+<start>0700</start>
+  </programme>
+  <programme>
+<start>0745</start>
+<title>Claimed and Shamed</title>
+<end>0815</end>
+<desc>6/10. Series which sees insurance fraudsters caught on camera. IFED bring down a huge ghost broking scam and an unconvincing tale of a stolen camera is exposed. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<desc>3/15. Series following Brits working in Australia's emergency services. A British chopper pilot rushes to the aid of an elderly farmer fighting for his life. [AD,S,SL]</desc>
+<end>0845</end>
+<title>Emergency Rescue Down Under</title>
+<start>0815</start>
+  </programme>
+  <programme>
+<start>0845</start>
+<subtitle>Dover to Lewes</subtitle>
+<end>0915</end>
+<title>Great British Railway Journeys</title>
+<desc>Michael Portillo journeys around Britain. Beginning in the port of Dover, he is inspired by a Victorian sea captain to plunge into the English Channel. [AD,S,SL]</desc>
+  </programme>
+  <programme>
+<start>0915</start>
+<title>Victoria Derbyshire</title>
+<end>1100</end>
+<desc>The BBC's daily news and current affairs programme with original stories, exclusive interviews, audience debate and breaking news. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>1100</start>
+<end>1200</end>
+<desc>Twenty-four hours a day, the latest national and international stories as they break. Also in HD. [S]</desc>
+<title>BBC News</title>
+  </programme>
+  <programme>
+<start>1200</start>
+<end>1300</end>
+<title>Daily Politics</title>
+<desc>Jo Coburn with the latest political news, interviews and debate. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>1300</start>
+<desc>...Club Series Special. Highlights from the 2016 World Club Series: Leeds Rhinos v North Queensland Cowboys, St Helens v Sydney Roosters and Wigan v Brisbane Broncos. [S]</desc>
+<end>1345</end>
+<title>The Super League Show: World...</title>
+  </programme>
+  <programme>
+<start>1345</start>
+<desc>9/31. Croagh Patrick to Beal Derrig: A visit to the Atlantic shore of Ireland's northwest coast, including Clew Bay and the oldest farm in the British Isles. Also in HD. [S]</desc>
+<end>1400</end>
+<title>Coast</title>
+  </programme>
+  <programme>
+<title>Who Do You Think You Are?</title>
+<end>1500</end>
+<desc>5/10. Sheridan Smith: Actress Sheridan Smith is keen to know where her musical talent comes from and is soon hot on the trail of her great-great-grandfather. Also in HD. [AD,S]</desc>
+<start>1400</start>
+  </programme>
+  <programme>
+<end>1545</end>
+<title>A Place to Call Home</title>
+<desc>9/10. I Do, I Do: Australian period drama. Sarah returns to Inverness with Rene, but may have underestimated her feelings for George. Also in HD. [S]</desc>
+<start>1500</start>
+  </programme>
+  <programme>
+<start>1545</start>
+<title>The Best Dishes Ever</title>
+<end>1615</end>
+<desc>12/20. Unusual Combinations: Recipes from some of the BBC's best-loved TV chefs. This week's unusual menu includes Michel Roux Junior's beef cheeks with pears, garlic and chocolate. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>1615</start>
+<title>Frozen Planet</title>
+<end>1715</end>
+<desc>7/7. On Thin Ice: David Attenborough investigates what rising temperatures will mean for the people and wildlife that live at the poles and for the rest of the planet. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<start>1715</start>
+<subtitle>Derby</subtitle>
+<end>1800</end>
+<title>Bargain Hunt</title>
+<desc>Antiques challenge. Tim and his experts are at the Derby Roundhouse, home to an antiques and collectors fair. Experts Charlie Ross and Thomas Plant help the teams. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<end>1830</end>
+<title>Eggheads</title>
+<desc>Jeremy Vine hosts the show in which teams from all over the UK take on probably the greatest quiz team in Britain, made up of some of the country's top quiz champions. Also in HD. [S]</desc>
+<start>1800</start>
+  </programme>
+  <programme>
+<start>1830</start>
+<desc>2/20. Greenock to Larkhall: Michael Portillo continues his journey through the Scottish lowlands. From Greenock, he sets sail in the world's last seagoing paddle steamer. Also in HD. [AD,S]</desc>
+<end>1900</end>
+<title>Great British Railway Journeys</title>
+  </programme>
+  <programme>
+<end>2000</end>
+<title>The Great Interior Design...</title>
+<desc>...Challenge. Bournville: Amateur designing competition. Three designers take on the challenge of a reception room in the historic model village of Bournville in Birmingham. Also in HD. [AD,S]</desc>
+<start>1900</start>
+  </programme>
+  <programme>
+<desc>4/6. The 80s: A family gives up its 21st-century technology and travels back in time. The family embrace the 80s, where TV and shopping dominated our leisure time. Also in HD. [AD,S]</desc>
+<end>2100</end>
+<title>Back in Time for the Weekend</title>
+<start>2000</start>
+  </programme>
+  <programme>
+<start>2100</start>
+<end>2200</end>
+<title>Who's the Boss?</title>
+<desc>1/3. Reynolds: A family-run fruit and veg supplier gives its staff the power to decide who to hire. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<end>2230</end>
+<title>Phone Shop Idol</title>
+<desc>6/6. The Angry Customer: Reality show. Britain's mobile phone sales force battle it out. The remaining 12 contestants compete for the ultimate prize in the final round. Also in HD. [S]</desc>
+<start>2200</start>
+  </programme>
+  <programme>
+<end>2315</end>
+<desc>In-depth investigation and analysis of the stories behind the day's headlines with Evan Davis. Also in HD. [S] Followed by weather.</desc>
+<title>Newsnight</title>
+<start>2230</start>
+  </programme>
+  <programme>
+<start>2315</start>
+<title>Let's Play Darts for Sport Relief</title>
+<end>0015</end>
+<desc>1/4. Gabby Logan hosts a winner-takes-all tournament for Sport Relief. In the first quarter-final, Greg Davies and 'Wolfie' Adams take on Jordan Stephens and Anastasia Dobromyslova. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>0115</end>
+<title>The Story of China</title>
+<desc>5/6. The Last Empire: The story of China's last empire, the Qing, which lasted from 1644 to 1912. Also in HD. [AD,S]</desc>
+<start>0015</start>
+  </programme>
+  <programme>
+<start>0115</start>
+<end>0215</end>
+<title>Back in Time for the Weekend</title>
+<desc>2/6. The 60s: A family gives up their 21st-century technology and travels back in time. As they enter the 60s, there's more fun to be had - a trip to the seaside and a Mini to enjoy. [AD,S,SL]</desc>
+  </programme>
+  <programme>
+<end>0315</end>
+<title>Trust Me, I'm a Doctor</title>
+<desc>The definitive answers to health questions. The doctors reveal how to stick to the health resolutions we made at New Year, but are already struggling to keep. Also in HD. [AD,S,SL]</desc>
+<start>0215</start>
+  </programme>
+  <programme>
+<end>0415</end>
+<title>MasterChef: The Professionals</title>
+<desc>13/21. Knockout week of the culinary competition. After four weeks of intense competition, the 12 most talented chefs come together for the first time to cook off against each other. [S,SL]</desc>
+<start>0315</start>
+  </programme>
+  <programme>
+<title>This Is BBC Two</title>
+<end>0615</end>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<start>0415</start>
+  </programme>
+</channel>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Tue Feb 23 08:39:02 2016 -->
+<channel id="bbc1" source="XMLTV" date="23/02/2016">
+  <programme>
+<end>0915</end>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+<title>Breakfast</title>
+<start>0600</start>
+  </programme>
+  <programme>
+<title>Food: Truth or Scare</title>
+<end>1000</end>
+<desc>2/5. Consumer series. With headlines suggesting millions are at risk of developing diabetes, Gloria Hunniford exposes how changing your diet can stop the condition in its tracks. Also in HD. [AD,S]</desc>
+<start>0915</start>
+  </programme>
+  <programme>
+<desc>Property renovation series. All three developers give dramatic and much-needed makeovers for their auction buys. Lucy calls in at a three-storey town house in Tunbridge Wells. Also in HD. [S]</desc>
+<end>1100</end>
+<title>Homes Under the Hammer</title>
+<start>1000</start>
+  </programme>
+  <programme>
+<end>1145</end>
+<desc>13/16. Cappleman Family: In 2009 Alan Cappleman was desperate to start a new life in Australia, but wife Louise wasn't keen. Six years later, have they made the life-changing move? Also in HD. [S]</desc>
+<title>Wanted Down Under Revisited</title>
+<start>1100</start>
+  </programme>
+  <programme>
+<end>1215</end>
+<title>Claimed and Shamed</title>
+<desc>7/10. Series which sees insurance fraudsters caught on camera. Officers from IFED hit the jackpot during a raid. CCTV footage puts one sleepy bus passenger's injury claim to bed. Also in HD. [S]</desc>
+<start>1145</start>
+  </programme>
+  <programme>
+<title>Bargain Hunt</title>
+<end>1300</end>
+<desc>Antiques challenge. Tim Wonnacott is in Sussex at the huge Ardingly Antiques and Collectors' Fair. They are assisted by experts Kate Bliss and Charles Hanson. Also in HD. [AD,S]</desc>
+<subtitle>Ardingly</subtitle>
+<start>1215</start>
+  </programme>
+  <programme>
+<start>1300</start>
+<end>1330</end>
+<title>BBC News at One</title>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>1345</end>
+<title>BBC London News</title>
+<desc>The latest news, sport and weather from London. [S]</desc>
+<start>1330</start>
+  </programme>
+  <programme>
+<start>1345</start>
+<end>1415</end>
+<title>Doctors</title>
+<desc>Emma faces a life-or-death decision when a young student is found unconscious. Ayesha has another tough day, but Anthony loses his patience. Also in HD. [AD,S]</desc>
+<subtitle>Cold Facts</subtitle>
+  </programme>
+  <programme>
+<title>Moving On</title>
+<end>1500</end>
+<desc>2/5. Passengers: Ronnie teaches neighbour Helen to drive, and begins to suspect that she is being abused. Also in HD. [AD,S]</desc>
+<start>1415</start>
+  </programme>
+  <programme>
+<end>1545</end>
+<title>Escape to the Country</title>
+<desc>Buyers are helped to find their dream homes. Jules Hudson takes on a property-hunting mission with a married couple who are fed up with life in the southern England commuter belt. Also in HD. [AD,S]</desc>
+<start>1500</start>
+  </programme>
+  <programme>
+<end>1630</end>
+<desc>...Goodman. 17/25. Len Goodman takes model and presenter Melanie Sykes back to Llandudno in north Wales to reminisce about her 1980 holiday, picking her up in a Skoda 105. Also in HD. [AD,S]</desc>
+<title>Holiday of My Lifetime with Len...</title>
+<start>1545</start>
+  </programme>
+  <programme>
+<subtitle>Basingstoke</subtitle>
+<title>Flog It!</title>
+<end>1715</end>
+<desc>Antiques series. Paul Martin presents from Milestones Museum in Basingstoke, a place bursting with remnants from Basingstoke's industrial past. Also in HD. [S]</desc>
+<start>1630</start>
+  </programme>
+  <programme>
+<end>1800</end>
+<title>Pointless</title>
+<desc>Quiz in which contestants try to score as few points as possible by plumbing the depths of their general knowledge to come up with the answers no-one else can think of. Also in HD. [S]</desc>
+<start>1715</start>
+  </programme>
+  <programme>
+<end>1830</end>
+<desc>The latest national and international news stories from the BBC News team, followed by weather. Also in HD. [S]</desc>
+<title>BBC News at Six</title>
+<start>1800</start>
+  </programme>
+  <programme>
+<end>1900</end>
+<title>BBC London News</title>
+<desc>The latest news, sport and weather from London. [S]</desc>
+<start>1830</start>
+  </programme>
+  <programme>
+<desc>If it's got Britain talking then it will get talked about on The One Show. Presented by Matt Baker and Alex Jones. Also in HD. [S]</desc>
+<end>1930</end>
+<title>The One Show</title>
+<start>1900</start>
+  </programme>
+  <programme>
+<start>1930</start>
+<desc>Reeling from his discovery, Martin heads to see Stacey. It's the day of Pearl's first birthday party, but Claudette and Kim find themselves at each other's throats. Also in HD. [AD,S] Then BBC News.</desc>
+<end>2000</end>
+<title>EastEnders</title>
+  </programme>
+  <programme>
+<end>2100</end>
+<title>Holby City</title>
+<desc>Hospital drama. Hanssen questions whether Bernie is ready to leave the army behind after he catches her breaking hospital rules. Arthur receives life-changing news. Also in HD. [AD,S]</desc>
+<subtitle>All Fall Down</subtitle>
+<start>2000</start>
+  </programme>
+  <programme>
+<end>2200</end>
+<desc>3/6. Tommy urges Frances to go further with her attempts at making Catherine's life a misery. Also in HD. [AD,S]</desc>
+<title>Happy Valley</title>
+<start>2100</start>
+  </programme>
+  <programme>
+<start>2200</start>
+<title>BBC News at Ten</title>
+<end>2230</end>
+<desc>The latest national and international news, with reports from BBC correspondents worldwide. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>2230</start>
+<end>2245</end>
+<desc>The latest news, sport and weather from London. [S] Followed by weather and a National Lottery update.</desc>
+<title>BBC London News</title>
+  </programme>
+  <programme>
+<title>Life and Death Row</title>
+<end>2345</end>
+<desc>1/3. Execution: The story of capital punishment through the eyes of young people. Daniel Lopez is resisting all appeals to block his execution. Contains some upsetting scenes.  Also in HD. [AD,S]</desc>
+<start>2245</start>
+  </programme>
+  <programme>
+<start>2345</start>
+<desc>...Homeless. Professor Green sets out to discover the modern face of homelessness, revealing the harsh reality of their lives. Contains some strong language.  Also in HD. [S]</desc>
+<end>0045</end>
+<title>Professor Green: Hidden and...</title>
+  </programme>
+  <programme>
+<end>0050</end>
+<title>Weather for the Week Ahead</title>
+<desc>Detailed weather forecast. Also in HD. [S]</desc>
+<start>0045</start>
+  </programme>
+  <programme>
+<start>0050</start>
+<title>BBC News</title>
+<end>0600</end>
+<desc>BBC One joins the BBC's rolling news channel for a night of news, with bulletins on the hour and the headlines every 15 minutes. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<start>0600</start>
+<end>0915</end>
+<title>Breakfast</title>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S] Including regional news at 25 and 55 minutes past each hour.</desc>
+  </programme>
+</channel>

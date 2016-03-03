@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Sat Feb 20 07:19:05 2016 -->
+<channel id="bbc2" source="XMLTV" date="25/02/2016">
+  <programme>
+<start>0345</start>
+<title>This Is BBC Two</title>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<end>0615</end>
+  </programme>
+  <programme>
+<end>0700</end>
+<title>Food: Truth or Scare</title>
+<start>0615</start>
+<desc>3/5. Gloria Hunniford and Chris Bavin discover how it's not just what you eat that can make a difference to how you feel, but when you have it and how you cook it. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<end>0745</end>
+<desc>14/16. Clanahan Family: In 2013, the Clanahans faced a massive decision. Leah was desperate to return to her native Australia, but husband Andrew couldn't bear to leave his mum. Also in HD. [S]</desc>
+<title>Wanted Down Under Revisited</title>
+<start>0700</start>
+  </programme>
+  <programme>
+<end>0815</end>
+<desc>8/10. Series which sees insurance fraudsters caught on camera. The Metropolitan Police raid a fraudulent claims management company, resulting in a jail term for the man behind it. Also in HD. [S]</desc>
+<start>0745</start>
+<title>Claimed and Shamed</title>
+  </programme>
+  <programme>
+<start>0815</start>
+<title>The Great Interior Design...</title>
+<desc>...Challenge. Weatherboard Cottages: Sixteen amateur designers battle it out. The three remaining designers are out to impress, working in grade II listed Kentish weatherboard cottages. [AD,S,SL]</desc>
+<end>0915</end>
+  </programme>
+  <programme>
+<desc>The BBC's daily news and current affairs programme with original stories, exclusive interviews, audience debate and breaking news. Also in HD. [S]</desc>
+<start>0915</start>
+<title>Victoria Derbyshire</title>
+<end>1100</end>
+  </programme>
+  <programme>
+<title>BBC News</title>
+<start>1100</start>
+<desc>The latest national and international news, plus top interviews and analysis. Also in HD. [S]</desc>
+<end>1200</end>
+  </programme>
+  <programme>
+<start>1200</start>
+<title>Daily Politics</title>
+<desc>Andrew Neil and Jo Coburn with the latest political news, interviews and debate. Also in HD. [S]</desc>
+<end>1300</end>
+  </programme>
+  <programme>
+<subtitle>Lowestoft Pier</subtitle>
+<end>1305</end>
+<start>1300</start>
+<title>Coast</title>
+<desc>Mark Horton visits Claremont Pier in Lowestoft and investigates the current perilous state of our seaside piers. [S]</desc>
+  </programme>
+  <programme>
+<start>1305</start>
+<title>The Pallisers</title>
+<desc>22/26. Lopez and Emily have married and are in Rome. Lopez's political future depends on Glencora's influence at the forthcoming by-election at Silverbridge. [S]</desc>
+<end>1400</end>
+  </programme>
+  <programme>
+<end>1500</end>
+<desc>4/10. Annie Lennox: Annie Lennox uncovers complex family relationships blighted by illegitimacy and poverty. Also in HD. [AD,S]</desc>
+<start>1400</start>
+<title>Who Do You Think You Are?</title>
+  </programme>
+  <programme>
+<title>A Place to Call Home</title>
+<start>1500</start>
+<desc>1/10. The Things We Do for Love: Australian period drama. Anna and Gino are on their honeymoon when she reveals that she has read the malicious letter given to her by Andrew Swanson. Also in HD. [S]</desc>
+<end>1550</end>
+  </programme>
+  <programme>
+<end>1620</end>
+<start>1550</start>
+<title>The Best Dishes Ever</title>
+<desc>14/20. Feeding the Kids: The menu includes beany mince and rumpy pumpy soup, brought to you by the Hairy Bikers. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>1720</end>
+<desc>2/10. Insect Hunters: Nature documentary series. David Attenborough meets moles that can swim through sand, a shrew that hunts underwater and the world's strangest bat in New Zealand. [AD,S]</desc>
+<start>1620</start>
+<title>The Life of Mammals</title>
+  </programme>
+  <programme>
+<title>Bargain Hunt</title>
+<start>1720</start>
+<desc>Antiques challenge. Tim Wonnacott and his two teams go head to head around the stalls of a Norfolk antiques fair, aided by experts Paul Laidlaw and Catherine Southon. Also in HD. [AD,S]</desc>
+<subtitle>Norfolk</subtitle>
+<end>1800</end>
+  </programme>
+  <programme>
+<title>Eggheads</title>
+<start>1800</start>
+<desc>Jeremy Vine hosts the show in which teams from all over the UK take on probably the greatest quiz team in Britain, made up of some of the country's top quiz champions. Also in HD. [S]</desc>
+<end>1830</end>
+  </programme>
+  <programme>
+<end>1900</end>
+<desc>4/20. Stirling to Pitlochry: In Stirling, Michael Portillo visits the scene of a bloody battle at Bannockburn. Also in HD. [AD,S]</desc>
+<title>Great British Railway Journeys</title>
+<start>1830</start>
+  </programme>
+  <programme>
+<desc>Rick Stein explores the food of Shanghai. Shanghai is one of the biggest cities in the world and is rapidly expanding, but has it hung on to its culinary roots? Also in HD. [AD,S]</desc>
+<start>1900</start>
+<title>Rick Stein's Taste of Shanghai</title>
+<end>2000</end>
+  </programme>
+  <programme>
+<start>2000</start>
+<title>Big Dreams Small Spaces</title>
+<desc>2/6. Monty Don helps people create the garden of their dreams. Jack and Chris want to create a Victorian-inspired plant collector's paradise with a hi-tech twist. Also in HD. [S]</desc>
+<end>2100</end>
+  </programme>
+  <programme>
+<end>2200</end>
+<title>The Story of China</title>
+<start>2100</start>
+<desc>6/6. The Age of Revolution: Michael Wood explores the history of the world's newest superpower. Michael investigates three cataclysmic revolutions which shaped modern-day China. Also in HD. [AD,S]</desc>
+  </programme>
+  <programme>
+<desc>10/10. Clare Balding is joined by Sebastian Coe, Olympic boxing champion Nicola Adams, Paralympian Hannah Cockcroft, and taekwondo champions Jade Jones and Bianca Walkden. Also in HD. [S]</desc>
+<title>The Clare Balding Show</title>
+<start>2200</start>
+<end>2230</end>
+  </programme>
+  <programme>
+<start>2230</start>
+<title>Newsnight</title>
+<desc>In-depth investigation and analysis of the stories behind the day's headlines with Evan Davis. Also in HD. [S] Followed by weather.</desc>
+<end>2315</end>
+  </programme>
+  <programme>
+<start>2315</start>
+<title>The People v OJ Simpson:...</title>
+<desc>...American Crime Story. 2/10. The Run of His Life: Lawyer Robert Kardashian struggles to prevent events escalating into further tragedy. Contains adult themes.  [AD,S]</desc>
+<end>2355</end>
+  </programme>
+  <programme>
+<end>0055</end>
+<title>The Story of China</title>
+<start>2355</start>
+<desc>4/6. The Ming: Michael Wood explores the history of the world's newest superpower. The tale of the Ming dynasty begins with the amazing story of Hongwu, a peasant rebel. [AD,S,SL]</desc>
+  </programme>
+  <programme>
+<title>Earth's Greatest Spectacles</title>
+<start>0055</start>
+<desc>2/3. Svalbard: How Svalbard transforms from an ice world into a rich tundra through the year. Also in HD. [AD,S,SL]</desc>
+<end>0155</end>
+  </programme>
+  <programme>
+<title>Emergency Rescue Down Under</title>
+<start>0155</start>
+<desc>4/15. Series following Brits working in Australia's emergency services. A British flying doctor races to the rescue after a family is injured in a major car crash. [AD,S,SL]</desc>
+<end>0225</end>
+  </programme>
+  <programme>
+<title>This Is BBC Two</title>
+<start>0225</start>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<end>0615</end>
+  </programme>
+</channel>

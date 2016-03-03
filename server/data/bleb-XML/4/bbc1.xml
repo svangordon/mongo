@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Mon Feb 22 07:19:01 2016 -->
+<channel id="bbc1" source="XMLTV" date="27/02/2016">
+  <programme>
+<start>0600</start>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S]</desc>
+<end>1000</end>
+<title>Breakfast</title>
+  </programme>
+  <programme>
+<title>Saturday Kitchen Live</title>
+<start>1000</start>
+<desc>James Martin presents the weekly cookery programme with help from Michelin-starred chef Glaton Blackiston. TV presenter Emma Bunton faces her food heaven or hell. Also in HD. [S]</desc>
+<end>1130</end>
+  </programme>
+  <programme>
+<end>1200</end>
+<desc>4/6. Mary Berry shares a selection of her foolproof recipes. Mary prepares a simple and easy herb flatbread that the whole family can muck in with. Also in HD. [AD,S]</desc>
+<start>1130</start>
+<title>Mary Berry's Foolproof Cooking</title>
+  </programme>
+  <programme>
+<title>BBC News</title>
+<end>1210</end>
+<desc>The latest national and international news from the BBC. Also in HD. [S] Followed by weather.</desc>
+<start>1200</start>
+  </programme>
+  <programme>
+<start>1210</start>
+<desc>Dan Walker and guests look ahead to a busy weekend of Premier League action. Former West Ham manager Sam Allardyce takes Sunderland to Upton Park and Leicester City face Norwich. Also in HD. [S]</desc>
+<end>1250</end>
+<title>Football Focus</title>
+  </programme>
+  <programme>
+<start>1250</start>
+<desc>A look at the day's sporting events. Also in HD. [S]</desc>
+<end>1300</end>
+<title>Saturday Sportsday</title>
+  </programme>
+  <programme>
+<title>Bargain Hunt</title>
+<end>1400</end>
+<subtitle>Oswestry</subtitle>
+<desc>Antiques show. Tim Wonnacott is at the Oswestry Showground, where he is joined by two teams of dancers. Marking their card are experts Christina Trevanion and Kate Bliss. Also in HD. [AD,S]</desc>
+<start>1300</start>
+  </programme>
+  <programme>
+<start>1400</start>
+<desc>Martin Roberts and Lucy Alexander visit a house in Salford, a plot in Chatham and a large property in Brampton that could be split into two. [S]</desc>
+<end>1500</end>
+<title>Homes Under the Hammer</title>
+  </programme>
+  <programme>
+<desc>3/20. Portugal: Nicki Chapman helps a couple from Leicestershire find a new home in Portugal. Also in HD. [AD,S]</desc>
+<start>1500</start>
+<end>1600</end>
+<title>Escape to the Continent</title>
+  </programme>
+  <programme>
+<title>Final Score</title>
+<start>1600</start>
+<desc>Jason Mohammad presents all of the day's football results, with reports and interviews from across the country and expert analysis from studio guests. Also in HD. [S]</desc>
+<end>1720</end>
+  </programme>
+  <programme>
+<title>Dynamo: Magician Impossible</title>
+<end>1750</end>
+<desc>1/4. Fly-on-the-wall documentary series. Dynamo is too hot to handle. The show follows him on a journey into his world, as his hectic life takes him from country to country. Also in HD. [AD,S]</desc>
+<start>1720</start>
+  </programme>
+  <programme>
+<title>BBC News</title>
+<end>1800</end>
+<start>1750</start>
+<desc>The latest national and international news from the BBC. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<title>BBC London News</title>
+<end>1810</end>
+<start>1800</start>
+<desc>The latest news, sport and weather from London. [S] Followed by national weather.</desc>
+  </programme>
+  <programme>
+<title>The Getaway Car</title>
+<desc>4/12. Game show hosted by Dermot O'Leary. Five couples test their nerve, driving ability and communication skills in a series of thrilling car-based challenges. Also in HD. [S]</desc>
+<start>1810</start>
+<end>1900</end>
+  </programme>
+  <programme>
+<title>The Voice UK</title>
+<end>2100</end>
+<start>1900</start>
+<desc>8/14. Battles 1: The battles commence, as coaches will.i.am, Boy George, Paloma Faith and Ricky Wilson choose the artists they want to take to the knockouts. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>2150</end>
+<start>2100</start>
+<desc>Fatal Error - Part 1: Lofty is finally getting the hang of his new role, but could one fatal error make his victory short-lived? Also in HD. [AD,S]</desc>
+<title>Casualty</title>
+  </programme>
+  <programme>
+<title>The National Lottery Live</title>
+<end>2200</end>
+<start>2150</start>
+<desc>The National Lottery Live including the Lotto and Thunderball draws, hosted from Lottery HQ by Gaby Roslin. Also in HD. [S]</desc>
+  </programme>
+  <programme>
+<end>2220</end>
+<desc>The latest national and international news from the BBC. Also in HD. [S] Followed by weather.</desc>
+<start>2200</start>
+<title>BBC News</title>
+  </programme>
+  <programme>
+<title>Match of the Day</title>
+<start>2220</start>
+<desc>Featuring Leicester City v Norwich City, West Ham v Sunderland and Chelsea v Southampton. Also in HD. [S] Followed by National Lottery Update.</desc>
+<end>2340</end>
+  </programme>
+  <programme>
+<title>The Tuxedo</title>
+<type>Film</type>
+<start>2340</start>
+<desc>The chauffeur of a secret agent is transformed into a superhero when he takes possession of his boss's gadget-laden tuxedo. Starring Jackie Chan. Contains adult themes.  Also in HD. [2002] [S]</desc>
+<end>0115</end>
+  </programme>
+  <programme>
+<end>0120</end>
+<desc>Detailed weather forecast. Also in HD. [S]</desc>
+<start>0115</start>
+<title>Weather for the Week Ahead</title>
+  </programme>
+  <programme>
+<desc>BBC One joins the BBC's rolling news channel for a night of news, with bulletins on the hour and the headlines every 15 minutes. Also in HD. [S]</desc>
+<start>0120</start>
+<end>0600</end>
+<title>BBC News</title>
+  </programme>
+  <programme>
+<title>Breakfast</title>
+<desc>The latest news, sport, business and weather from the BBC's Breakfast team. Also in HD. [S]</desc>
+<start>0600</start>
+<end>0735</end>
+  </programme>
+</channel>

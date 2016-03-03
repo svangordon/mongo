@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- produced for the bleb.org TV system at Mon Feb 22 07:19:05 2016 -->
+<channel id="bbc2" source="XMLTV" date="27/02/2016">
+  <programme>
+<end>0655</end>
+<desc>Property redevelopment series. Martin Roberts and Lucy Alexander visit a property in Jarrow, Tyne and Wear, two flats in Harlesden, London, and a terraced house in Salford. Also in HD. [S]</desc>
+<start>0555</start>
+<title>Homes Under the Hammer</title>
+  </programme>
+  <programme>
+<desc>13/20. Ben Fogle and Kate Humble explore Longleat Estate and Safari Park. The white rhinos have the trots, so Kate tries an unusual homeopathic cure. Lion cub Jasira develops a limp. [S]</desc>
+<start>0655</start>
+<end>0750</end>
+<title>Animal Park</title>
+  </programme>
+  <programme>
+<end>0915</end>
+<desc>Sci-fi classic. A young boy's excitement at seeing a spaceship land outside his house quickly turns to fear when everyone who visits the site returns in a zombie-like state. [1953] [S]</desc>
+<start>0750</start>
+<type>Film</type>
+<title>Invaders from Mars</title>
+  </programme>
+  <programme>
+<title>The Password Is Courage</title>
+<type>Film</type>
+<end>1110</end>
+<start>0915</start>
+<desc>Factually based World War II drama about a British POW who spends all his time planning his escape. Based on the story of sergeant major Charles Coward. [B&amp;W, 1962] [S]</desc>
+  </programme>
+  <programme>
+<end>1200</end>
+<desc>10/15. Moose in the Glen: Wildlife documentary about landowner Paul Lister, who wants to turn his 23,000-acre estate north of Inverness into Europe's first wilderness reserve. [AD,S]</desc>
+<start>1110</start>
+<title>Natural World</title>
+  </programme>
+  <programme>
+<title>James Martin: Home Comforts</title>
+<end>1245</end>
+<desc>12/16. Herbs and Spices: James creates dishes infused with fresh vibrant flavours. Also in HD. [AD,S]</desc>
+<start>1200</start>
+  </programme>
+  <programme>
+<end>1345</end>
+<desc>Rick Stein visits the cultural city of Lucknow, reputedly the curry capital of India and perhaps the world, helps find Punjab's new star chef and cooks paneer jalfrezi. Also in HD. [AD,S]</desc>
+<start>1245</start>
+<title>Rick Stein's India</title>
+  </programme>
+  <programme>
+<start>1345</start>
+<desc>5/20. Nice and Easy: Ainsley Harriott introduces classic recipes from some of the BBC's best-loved television chefs. The menu includes Nigel Slater's lazy loaf. Also in HD. [S]</desc>
+<end>1415</end>
+<title>The Best Dishes Ever</title>
+  </programme>
+  <programme>
+<end>1445</end>
+<start>1415</start>
+<desc>6/20. Pick Me Ups: Dishes include a red rice salad from Mary Berry and Nigel Slater's 'hangover' beef salad. Also in HD. [S]</desc>
+<title>The Best Dishes Ever</title>
+  </programme>
+  <programme>
+<desc>Adventure set in WWII. A US Navy lieutenant aboard a submarine is assigned the dangerous task of retrieving a top-secret code book from the Japanese. [1959] [S]</desc>
+<start>1445</start>
+<end>1630</end>
+<type>Film</type>
+<title>Up Periscope</title>
+  </programme>
+  <programme>
+<start>1630</start>
+<desc>2/6. Monty Don helps people create the garden of their dreams. Jack and Chris want to create a Victorian-inspired plant collector's paradise with a hi-tech twist. Also in HD. [S]</desc>
+<end>1730</end>
+<title>Big Dreams Small Spaces</title>
+  </programme>
+  <programme>
+<title>Flog It!</title>
+<desc>Antiques series. Paul Martin is joined by a team of experts led by Mark Stacey and Adam Partridge in Bangor, North Wales. Finds include a collection of thimbles. Also in HD. [S]</desc>
+<start>1730</start>
+<end>1830</end>
+<subtitle>Bangor</subtitle>
+  </programme>
+  <programme>
+<end>1930</end>
+<start>1830</start>
+<desc>4/6. The 80s: A family gives up its 21st-century technology and travels back in time. The family embrace the 80s, where TV and shopping dominated our leisure time. Also in HD. [AD,S]</desc>
+<title>Back in Time for the Weekend</title>
+  </programme>
+  <programme>
+<desc>1/3. The Best Laid Plans...: Series exploring the reign of Victoria through her personal relationships. This episode focuses on her tempestuous marriage to Prince Albert. Also in HD. [AD,S]</desc>
+<start>1930</start>
+<end>2030</end>
+<title>Queen Victoria's Children</title>
+  </programme>
+  <programme>
+<end>2100</end>
+<desc>3/13. A Soldier's Farewell: Classic wartime sitcom. A visit to the cinema and a toasted cheese supper make Captain Mainwaring dream that he is Napoleon. [S]</desc>
+<start>2030</start>
+<title>Dad's Army</title>
+  </programme>
+  <programme>
+<end>2200</end>
+<desc>1/3. An obnoxious group of friends struggle to survive the stag weekend from hell as a deer-hunting expedition in the Scottish highlands quickly turns messy. Also in HD. [AD,S]</desc>
+<start>2100</start>
+<title>Stag</title>
+  </programme>
+  <programme>
+<start>2200</start>
+<desc>Drama set in 1990. Five Manchester friends and bandmates will stop at nothing to get to Spike Island, Cheshire, to see the Stone Roses in concert. Also in HD. [2012] [S]</desc>
+<end>2340</end>
+<title>Spike Island</title>
+<type>Film</type>
+  </programme>
+  <programme>
+<title>They Came from Manchester: The...</title>
+<end>0040</end>
+<desc>...Story of Mancunian Pop. A compilation of BBC studio performances of Manchester bands from the '60s to the present, including The Hollies, 10CC, Buzzcocks, Joy Division and many more. [S]</desc>
+<start>2340</start>
+  </programme>
+  <programme>
+<title>The Secret in Their Eyes</title>
+<type>Film</type>
+<start>0040</start>
+<desc>A retired Argentine federal agent revisits a case that has haunted him for decades. In Spanish with English subtitles. Contains very strong language and sexual violence.  Also in HD. [2010] [S]</desc>
+<end>0240</end>
+  </programme>
+  <programme>
+<title>This Is BBC Two</title>
+<start>0240</start>
+<desc>Highlights of programmes on BBC Two. Also in HD. [S]</desc>
+<end>0620</end>
+  </programme>
+</channel>
