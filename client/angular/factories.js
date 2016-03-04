@@ -47,6 +47,7 @@ function networkFactory (http) {
 	networkData.delete = function (id) {
 		return http.delete('/api/network' + id)
 	}
+	return networkData
 }
 
 // in the db 1456272000000

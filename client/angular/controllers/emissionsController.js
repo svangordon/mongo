@@ -1,5 +1,5 @@
 angular.module('app')
-	.controller('emissionsController', ['$scope', 'dayFactory', 'viewFactory', 'networksFactory', 'timeFactory', function(scope, day, view, networks, time) {
+	.controller('emissionsController', ['$scope', 'dayFactory', 'viewFactory', 'networkFactory', 'timeFactory', function(scope, day, view, networks, time) {
 		// TODO : This getday is hardcoded, needs to be made today / based on the timefactory thing
 		day.search('bbc1', moment.utc('2016-02-24'))
 			.then(function(res){
@@ -11,14 +11,18 @@ angular.module('app')
 					})
 				})
 			})
-		
+		scope.colorTable = {}
+
 		scope.log = function (val) {console.log(val)}
 
 		scope.activeNetworks = networks.activeNetworks
 
 
-		networks.colorTable().then(function (res) {
-			scope.colorTable = res
+		networks.all().then(function(networks) {
+			networks.data.forEach(function(cur) {
+				scope.colorTable[cur.callsign] = cur.color
+			})
+			console.log('color table : ', scope.colorTable)
 		})
 
 			

@@ -26,4 +26,13 @@ angular.module('app')
 			return Boolean(scope.networks.filter(cur => !cur.active).length)
 		}
 
+		function ActiveNetworks (arr) {
+			this.networks = arr;
+			this.remove = function(callsign) { this.networks.splice( this.networks.indexOf(callsign) , 1)};
+			this.add = function(callsign) {this.networks.push(callsign)};
+			this.isActive = (function(network) {return this.networks.indexOf(network.callsign) !== -1 }).bind(this);
+			this.isInactive = (function(network) {return !this.isActive(network)} ).bind(this)
+		}
+		var activeNetworks = new ActiveNetworks(['bbc1', 'bbc2']);
+
 	}])
