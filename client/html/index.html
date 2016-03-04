@@ -102,8 +102,9 @@
 				</div>
 			</div>
 			<div class="guide-view col-xs-10 viewport" ng-controller="emissionsController" ng-style="{'height' : (activeNetworksNumber() + 1) * 64 + 'px'}">
-				<div class="emission-row" ng-repeat="channel in channels | filter: activeNetworks.isActive"
+				<div class="emission-row" ng-repeat="channel in active | filter: activeNetworks.isActive"
 					ng-style="{'background-color' : colorTable[channel.callsign], 'name' : channel.networkCallsign}">
+						<h1 ng-bind="channel.callsign"></h1>
 						<div class="emission-block pull-left" ng-repeat="emission in channel.emissions | inViewFilter : schedule " ng-style="{'background-color' : channel.color , width : relBlockWidth(emission.start, emission.end) + 'px'}" ng-mousemove="hover.setActive(emission)" ng-class="{'active-cell': hover.testActive(emission)}">
 							<div class="emission-block-content" ng-bind="emission.title"></div>
 						</div>

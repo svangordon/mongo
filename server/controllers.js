@@ -3,7 +3,7 @@
 var express = require('express')
   , router = express.Router()
   , moment = require('moment')
-  , requres = require('request')
+  , request = require('request')
   , db = require('./models')
 
   module.exports = {

@@ -17,4 +17,6 @@ Okay, so what are things that we'd like to get in a query string?
 
 	Oh for the cutoff, i recently changed it to 05: 59 but it probably should be 06:01.
 
-	The routes are like super effed?
+	The routes are like super effed? Nah they're okay.
+
+	Okay so for the service, the pull url is going to be an array of every available day -- then it's going to hit each one, and upsert 

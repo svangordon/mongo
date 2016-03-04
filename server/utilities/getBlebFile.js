@@ -3,31 +3,22 @@
 // for a stated array of days
 var request = require('request')
 var xml2js = require('xml2js')
-var fs = require('fs')
-var util = require('util')
 var moment = require('moment')
+var db = require('../models.js')
 
 // Setup parser \\
 var parser = new xml2js.Parser({explicitArray : false})
 
 // connect to server
-var mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/guignol')
-// TODO: Once this is folded into the main server.js and called from there,
-// this require will need to be moved to that part of the code
-require('mongoose-moment')(mongoose);
-var Days = require('../models/daySchema')
+// These should be unnecessary
+// var mongoose = require('mongoose')
+// mongoose.createConnection('mongodb://localhost/guignol')
 
+function getFile (url) {
 
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'))
-db.once('open', function() {
-
-
-	console.log('db open')
 
 	var options = {
-		url : 'http://bleb.org/tv/data/listings/1/bbc1.xml',
+		url : url,
 		headers : {
 			'User-Agent' : 'stephen.van.gordon@gmail.com'
 		}
@@ -47,7 +38,7 @@ db.once('open', function() {
 				var month = parseInt(date[1]) - 1 // Months are 0-offset but not days? weird
 				var year = parseInt(date[2])
 				var dayCutoff = moment.utc([year, month, day, 06, 00]) // so anything before this needs to be moved to the next day
-				var broadcastDay = moment.utc([year,month,day])
+				var broadcastDay = moment.utc([year,month,day]).valueOf()
 				var dayRollover = false
 				var dayStart;
 				var programmes = results.channel.programme;
@@ -92,8 +83,8 @@ db.once('open', function() {
 					var out = {
 						title : cur.title,
 						network : networkCallsign,
-						start : startTime,
-						end : endTime,
+						start : startTime.valueOf(),
+						end : endTime.valueOf(),
 						desc : cur.desc
 					}
 					emissionsArray.push(out)
@@ -103,21 +94,32 @@ db.once('open', function() {
 					date : broadcastDay,
 					emissions : emissionsArray
 				}
-				var newDay = new Days(newDay);
-				newDay.save(function(err, docs) {
-					if (err) {
-						console.log(emissions)
-						// throw err
+
+				// var newDay = new db.Day(newDay);
+				var options = {upsert : true, new : true}
+				db.Day.findOneAndUpdate(
+					{callsign : newDay.callsign, date : newDay.date}
+					, newDay
+					, options
+					, function (err, doc) {
+						if (err) throw err
+						// console.log('saved\n', doc., '\n')
 					}
-					console.log('saved')
-				})
+				)
+
+				// newDay.save(function(err, docs) {
+				// 	if (err) {
+				// 		// console.log(docs)
+				// 		throw err
+				// 	} else {
+				// 		console.log('saved\n', docs)
+				// 	}
+				// })
 
 
 	        })
 	    }
 	});
+}
 
-
-
-	
-})
+module.exports = getFile

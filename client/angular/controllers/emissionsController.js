@@ -19,7 +19,7 @@ angular.module('app')
 				console.log('scope channels', scope.channels)
 			})
 
-		console.log('days',time.schedule.days)
+		console.log('\ntime Factory\n', time)
 
 		scope.colorTable = {}
 
