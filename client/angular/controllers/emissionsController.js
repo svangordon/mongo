@@ -1,16 +1,26 @@
 angular.module('app')
 	.controller('emissionsController', ['$scope', 'dayFactory', 'viewFactory', 'networkFactory', 'timeFactory', function(scope, day, view, networks, time) {
 		// TODO : This getday is hardcoded, needs to be made today / based on the timefactory thing
-		day.search('bbc1', moment.utc('2016-02-24'))
-			.then(function(res){
+		scope.channels = []
+		// day.search('bbc1', moment.utc('2016-02-24'))
+		// 	.then(function(res){
+		// 		scope.channels = scope.channels.concat(res.data)
+		// 	})
+
+		// day.search('bbc2', moment.utc('2016-02-24'))
+		// 	.then(function(res){
+		// 		scope.channels = scope.channels.concat(res.data)
+		// 		console.log('scope channels', scope.channels)
+		// 	})
+
+		day.all()
+			.then(function (res) {
 				scope.channels = res.data
-				scope.channels.forEach(function(cur) {
-					cur.emissions.forEach(function(cur) {
-						if (cur.end < cur.start)
-							console.log(cur.title, moment.utc(cur.start).format(), moment.utc(cur.end).format())
-					})
-				})
+				console.log('scope channels', scope.channels)
 			})
+
+		console.log('days',time.schedule.days)
+
 		scope.colorTable = {}
 
 		scope.log = function (val) {console.log(val)}

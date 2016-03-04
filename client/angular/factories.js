@@ -47,6 +47,16 @@ function networkFactory (http) {
 	networkData.delete = function (id) {
 		return http.delete('/api/network' + id)
 	}
+
+	function ActiveNetworks (arr) {
+		this.networks = arr;
+		this.remove = function(callsign) { this.networks.splice( this.networks.indexOf(callsign) , 1)};
+		this.add = function(callsign) {this.networks.push(callsign)};
+		this.isActive = (function(network) {return this.networks.indexOf(network.callsign) !== -1 }).bind(this);
+		this.isInactive = (function(network) {return !this.isActive(network)} ).bind(this)
+	}
+	networkData.activeNetworks = new ActiveNetworks(['bbc1', 'bbc2']);
+
 	return networkData
 }
 

@@ -1,6 +1,8 @@
 angular.module('app')
 	.factory('timeFactory', [function () {
 
+		// TODO: this object is monster, and should be simplified 3/4/16
+
 		var Schedule = (function() {
 			
 			function ScheduleConstructor (hoursBefore, hoursAfter) { // hoursBefore should be negative, hoursAfter positive
