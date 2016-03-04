@@ -2,8 +2,9 @@
 // Over a bunch of things into something that just queries a db. crazy.
 
 angular.module('app')
-	.factory('dayFactory', ['$http', dayFactory])
+	.factory('dayFactory', dayFactory)
 	.factory('networkFactory', ['$http', networkFactory])
+	dayFactory.$inject = ['$http']
 
 
 function dayFactory (http) {
