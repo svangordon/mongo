@@ -14,13 +14,13 @@ var daySchema = new Schema({
               }] 
 });
 
-var emissionSchema = new Schema({
-  title: String,
-  network: String,
-  start : Number,
-  end : Number,
-  desc : String
-});
+// var emissionSchema = new Schema({
+//   title: String,
+//   network: String,
+//   start : Number,
+//   end : Number,
+//   desc : String
+// });
 
 var networkSchema = new Schema({
   name: String,

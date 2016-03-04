@@ -1,18 +1,7 @@
-// // Requires
-// var Day = require('./dayController.js')
-// var Emission = require('./emissions.js')
-// var Network = require('./networks.js')
-
-// module.exports = {
-// 	DayCtrl : Day,
-// 	EmissionCtrl : Emission,
-// 	NetworkCtrl : Network
-// }
 
 // Requires
 var express = require('express')
   , router = express.Router()
-  , emissions = require('../models/emissionSchema')
   , moment = require('moment')
   , requres = require('request')
   , db = require('./models')
@@ -22,7 +11,7 @@ var express = require('express')
   		all : function (req, res) {
   			console.log('getting all days')
   			db.Day.find({}, function (err, days) {
-  				req.json(days)
+  				res.json(days)
   			})
   		},
   		upsert : function (req, res) {
@@ -34,16 +23,19 @@ var express = require('express')
 				console.log('doc updated')
 				res.json(doc)
   			})
-  		}
-  		,
+  		},
   		data : function (req, res) {
   			console.log('getting day(s)')
-  			var searchObj = {};
-  			for (key in req.params) {
-  				searchObj[key] = req.params[key]
-  			};
-  			db.Day.find(searchObj, function (err, days) {
+  			var dayId = req.params.id  			
+  			db.Day.find({_id : dayId}, function (err, days) {
   				res.json(days)
+  			})
+  		},
+  		find : function (req, res) {
+  			var dayNet = req.params.network
+  			, dayDate = req.params.date;
+  			db.Day.find({date : dayDate, callsign : dayNet}, function (err, day) {
+  				res.json(day)
   			})
   		},
   		delete : function (req, res) {
@@ -59,7 +51,7 @@ var express = require('express')
   			console.log('getting all networks')
   			db.Network.find({}, function (err, networks) {
   				if (err) throw err
-  				res.json(docs)
+  				res.json(networks)
   			})
   		},
   		delete : function (req, res) {
@@ -81,7 +73,7 @@ var express = require('express')
   		},
   		data : function (req, res) {
   			console.log('returning network');
-  			networkId = req.params._id
+  			var networkId = req.params.id;
   			db.Network.findOne({_id : networkId}, function(err, network) {
   				if (err) throw err;
   				res.json(network)

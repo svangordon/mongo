@@ -19,9 +19,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/../client'));
 
 // controllers \\
-app.use('/networks', require('./controllers/networks'))
-app.use('/emissions', require('./controllers/emissions'))
-app.use('/days', require('./controllers/dayController'))
 
 app.use('/api', apiRoutes)
 
