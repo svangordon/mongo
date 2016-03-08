@@ -27,10 +27,10 @@ app.get('/', function (req, res) {
 })
 
 app.get('/privacy', function (req, res) {
-	res.sendFile('privacy.html', {root : '..client/html'})
+	res.sendFile('privacy.html', {root : '../client/html'})
 })
 
 
-app.listen(3000, function() {
-  console.log('Listening on port 3000...')
+app.listen(80, function() {
+  console.log('Listening on port 80...')
 })
