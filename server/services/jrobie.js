@@ -44,7 +44,7 @@ function PullUrl (url1, url2, url3, start, end) {
 }
 var blebUrl = new PullUrl('http://bleb.org/tv/data/listings/', '/', '.xml', -1, 6)
 
-var networkCallsigns = networks.map(cur => cur.callsign)
+var networkCallsigns = networks.map(function(cur) {return cur.callsign})
 var pullUrls = [];
 // console.log('callsigns',networkCallsigns, 'typeof', Array.isArray(networkCallsigns))
 networkCallsigns.forEach(function (cur) {
