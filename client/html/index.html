@@ -32,7 +32,7 @@
 	<script src="angular/modules/app.js"></script>
 		
 		<!-- ng filters -->
-		<script type="text/javascript" src="angular/filters/inViewFilter.js"></script>
+		<script type="text/javascript" src="angular/filters/filters.js"></script>
 
 		<!-- Angular Factories -->
 		<script type="text/javascript" src="angular/factories.js"></script>
@@ -102,19 +102,11 @@
 				</div>
 			</div>
 			<div class="guide-view col-xs-10 viewport" ng-controller="emissionsController" ng-style="{'height' : (activeNetworksNumber() + 1) * 64 + 'px'}">
-				<div class="emission-row" ng-repeat="channel in active | filter: activeNetworks.isActive"
-					ng-style="{'background-color' : colorTable[channel.callsign], 'name' : channel.networkCallsign}">
-						<h1 ng-bind="channel.callsign"></h1>
-						<div class="emission-block pull-left" ng-repeat="emission in channel.emissions | inViewFilter : schedule " ng-style="{'background-color' : channel.color , width : relBlockWidth(emission.start, emission.end) + 'px'}" ng-mousemove="hover.setActive(emission)" ng-class="{'active-cell': hover.testActive(emission)}">
+				<div class="emission-row" ng-repeat="channel in channels"
+					ng-style="{'background-color' : colorTable[channel.callsign], 'name' : channel.callsign}">
+						<div class="emission-block pull-left" ng-repeat="emission in channel.emissions | inViewFilter : schedule " ng-style="{'background-color' : colorTable[channel.callsign] , width : relBlockWidth(emission.start, emission.end) + 'px'}" ng-mousemove="hover.setActive(emission)" ng-class="{'active-cell': hover.testActive(emission)}">
 							<div class="emission-block-content" ng-bind="emission.title"></div>
 						</div>
-					<!-- <div ng-repeat="emission in network.emissions | inViewFilter : schedule" class="emission-block pull-left" ng-class="{'active-cell': hover.testActive(emission) , 'slide-left-1' : slideState.val === 0, 'slide-left-2' : slideState.val === 1, 'slide-right-1' : slideState.val === 2, 'slide-right-2' : slideState.val === 3}" ng-style="{'width' : emission.getDisplayWidth() + 'px', 'background-color' : network.color, 'transform' : 'translateX('+emisson.getDisplayWidth()+'px'}" ng-click="log(document.getElementsByClassName('active-cell'))" ng-mouseenter="hover.setActive(emission); log('hi')" ng-mousemove="log()" ng-bind="emission.title"> -->
-						<!-- <div class="emission-block-content" ng-bind="::emission.title"></div> -->
-<!-- 						<div ng-show="false" class="emission-block-description" ng-mousemove="hover.activeCell = hover.activeCell.hoverHandler($event.offsetX, emission.getDisplayWidth())" ng-mouseleave="hover.resetActive()" ng-click="hover.resetActive()">
-							<p ng-bind="::emission.title"></p>
-							<p ng-bind="::emission.desc"></p>
-						</div> 
-					</div> -->
 				</div>
 				<div ng-show="addNetworks">
 					<div ng-repeat="network in networks | filter : activeNetworks.isInactive" class="network-block-add" ng-style="{'background' : 'url('+network.logo+') '+network.color + ' center / auto 50px no-repeat', 'background-color' : network.color}" ng-click=" activeNetworks.add(network.callsign); addNetworks = false">

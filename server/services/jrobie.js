@@ -21,8 +21,9 @@ mongoose.connect('mongodb://localhost/guignol')
 
 // Once verything works, put everything in the callback
 var blebJob = new CronJob('00 30 00 * * *', function () {
-
-})
+	structuredPull(pullUrls);
+}, function () {console.log('job complete')},
+true)
 
 // timeoutTest()
 
@@ -66,7 +67,7 @@ function structuredPull (urls) {
 	  }
 	}, 10000);	
 }
-structuredPull(pullUrls);
+
 
 
 	

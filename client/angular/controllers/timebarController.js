@@ -3,4 +3,5 @@ angular.module('app')
 		scope.schedule = time.schedule;
 		scope.minPerPx = time.minPerPx
 
+
 	}])

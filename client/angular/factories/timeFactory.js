@@ -29,7 +29,7 @@ angular.module('app')
 				var newDay;
 				var out = []
 				for (var i = -2; i < 3 ; i++ ) {
-					newDay = moment(curDay).add(i,'d')
+					newDay = moment(curDay).set({'hour':0,'minute':0,'second':0,'millisecond':0}).add(i,'d')
 					out.push(newDay)
 				}
 				// console.log(out)
