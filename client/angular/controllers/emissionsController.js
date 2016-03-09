@@ -28,7 +28,7 @@ angular.module('app')
 		scope.log = function (val) {console.log(val)}
 
 		scope.activeNetworks = networks.activeNetworks
-		scope.$watchCollection('activeNetworks', function( newVal, oldVal) {
+		scope.$watchCollection('activeNetworks.networks', function( newVal, oldVal) {
 			setChannels()
 		})
 			
