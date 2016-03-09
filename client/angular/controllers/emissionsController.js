@@ -28,7 +28,7 @@ angular.module('app')
 		scope.log = function (val) {console.log(val)}
 
 		scope.activeNetworks = networks.activeNetworks
-		scope.$watchCollection('activeNetworks', function(new, old) {
+		scope.$watchCollection('activeNetworks', function( newVal, oldVal) {
 			setChannels()
 		})
 			
@@ -56,7 +56,7 @@ angular.module('app')
 				console.log('new channels arr', scope.channels)
 			})
 		}
-		setChannels()
+		// setChannels()
 
 		networks.all().then(function(networks) {
 			networks.data.forEach(function(cur) {
