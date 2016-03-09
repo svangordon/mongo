@@ -30,5 +30,13 @@ angular.module('app')
 			return Boolean(scope.networks.filter(cur => !cur.active).length)
 		}
 
+		scope.getAttr = function (callsign, attr) {
+			// console.log('getAttr', scope.networks.filter(cur => callsign === cur.callsign)[0].logo)
+
+			return scope.networks.filter(cur => callsign === cur.callsign)[0][attr]
+		}
+
+		// scope.getColor = function (callsign)
+
 		console.log('activeNetworks', scope.activeNetworks)
 	}])
