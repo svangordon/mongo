@@ -28,8 +28,13 @@ angular.module('app')
 
 		function ActiveNetworks (arr) {
 			this.networks = arr;
-			this.remove = function(callsign) { this.networks.splice( this.networks.indexOf(callsign) , 1)};
-			this.add = function(callsign) {this.networks.push(callsign)};
+			this.remove = function(callsign) {
+				this.networks.splice( this.networks.indexOf(callsign) , 1)
+			};
+			this.add = function(callsign) {
+				this.networks.push(callsign)
+				this.networks = this.networks.sort()
+			};
 			this.isActive = (function(network) {return this.networks.indexOf(network.callsign) !== -1 }).bind(this);
 			this.isInactive = (function(network) {return !this.isActive(network)} ).bind(this)
 		}

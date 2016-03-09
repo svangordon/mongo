@@ -29,6 +29,7 @@ angular.module('app')
 
 		scope.activeNetworks = networks.activeNetworks
 		scope.$watchCollection('activeNetworks.networks', function( newVal, oldVal) {
+			console.log('watcher fired')
 			setChannels()
 		})
 			
@@ -42,7 +43,9 @@ angular.module('app')
 		// Eh, this isn't actually so bad. Just needs to be done everytime activeNetworks changes
 		function setChannels () {day.all()
 			.then(function (res) {
+				scope.channels = []
 				scope.days = res.data;
+				console.log('setChannels activeNetworks', scope.activeNetworks.networks)
 				scope.activeNetworks.networks.forEach(function(network) {
 					var emissions = scope.days.filter(function(day) { return day.callsign === network })
 					scope.channels.push({callsign : network, emissions : emissions})
@@ -53,10 +56,10 @@ angular.module('app')
 
 					console.log('cur', cur)
 				})
+				scope.channels = scope.channels.sort((a,b) => a.callsign > b.callsign ? 1 : -1)
 				console.log('new channels arr', scope.channels)
 			})
 		}
-		// setChannels()
 
 		networks.all().then(function(networks) {
 			networks.data.forEach(function(cur) {

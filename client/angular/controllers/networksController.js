@@ -8,7 +8,9 @@ angular.module('app')
 
 		scope.activeNetworks = networks.activeNetworks
 
-
+		scope.removeNetwork = function(callsign) {
+			networks.activeNetworks.remove(callsign);
+		}
 
 		scope.hoverStateReset = function () {
 			for (network in emissions.emissionsByNetwork) {
