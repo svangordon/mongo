@@ -28,7 +28,9 @@ angular.module('app')
 		scope.log = function (val) {console.log(val)}
 
 		scope.activeNetworks = networks.activeNetworks
-		console.log('activeNetworks', scope.activeNetworks)
+		scope.$watchCollection('activeNetworks', function(new, old) {
+			setChannels()
+		})
 			
 		scope.absBlockWidth = view.absBlockWidth
 		scope.relBlockWidth = view.relBlockWidth
@@ -37,7 +39,8 @@ angular.module('app')
 		// It basically gets all of the days, sorts them by days, then puts them together,
 		// then combines them again... Never, ever, do an entire front end before knowing
 		// how to code the backend (obviously, that will never happen)
-		day.all()
+		// Eh, this isn't actually so bad. Just needs to be done everytime activeNetworks changes
+		function setChannels () {day.all()
 			.then(function (res) {
 				scope.days = res.data;
 				scope.activeNetworks.networks.forEach(function(network) {
@@ -52,6 +55,8 @@ angular.module('app')
 				})
 				console.log('new channels arr', scope.channels)
 			})
+		}
+		setChannels()
 
 		networks.all().then(function(networks) {
 			networks.data.forEach(function(cur) {
