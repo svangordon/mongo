@@ -3,7 +3,7 @@ angular.module('app')
 		var activeElement = $('div.active-cell')
 		scope.hover = hover.activeCell;
 		scope.verticalOffset = 100;
-		scope.horizontalOffset = 97.5;
+		scope.horizontalOffset = 0;
 		scope.tooltipTop = 0;
 		scope.tooltipLeft = 0;
 
@@ -21,16 +21,17 @@ angular.module('app')
 		}
 
 		scope.getTop = function () {
-			
+
 			// console.log($( 'div.active-cell' ).length !== 0 ?
 			// 	$( 'div.active-cell' ).position().top : 0)
 			// console.log($( 'div.active-cell' ))
 			if ($( 'div.active-cell' ).length !== 0) {
-				scope.tooltipTop = Math.ceil($( 'div.active-cell' ).position().top + scope.verticalOffset)
+				scope.tooltipTop = Math.ceil($( 'div.active-cell' ).parent().parent().position().top + scope.verticalOffset)
 				// console.log(scope.tooltipTop)
 			} else {
 				// console.log('active-cell is undefined')
 			}
+			// console.log('tooltipTop returns', scope.tooltipTop)
 			return scope.tooltipTop
 		}
 

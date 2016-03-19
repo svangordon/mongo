@@ -1,7 +1,7 @@
 angular.module('app')
 	.controller('emissionsController', ['$scope', 'dayFactory', 'viewFactory', 'networkFactory', 'timeFactory', function(scope, day, view, networks, time) {
-		// TODO : This getday is hardcoded, needs to be made today / based on the timefactory thing
-		
+
+
 		// !!!!! : Don't forget what format activeNEtworks is in.
 
 		scope.days = []
@@ -32,10 +32,10 @@ angular.module('app')
 			console.log('watcher fired')
 			setChannels()
 		})
-			
+
 		scope.absBlockWidth = view.absBlockWidth
 		scope.relBlockWidth = view.relBlockWidth
-		
+
 		// TODO: This is an abomination before god, but I need it to work right now.
 		// It basically gets all of the days, sorts them by days, then puts them together,
 		// then combines them again... Never, ever, do an entire front end before knowing
@@ -57,7 +57,7 @@ angular.module('app')
 					console.log('cur', cur)
 				})
 				scope.channels = scope.channels.sort((a,b) => a.callsign > b.callsign ? 1 : -1)
-				console.log('new channels arr', scope.channels)
+				// console.log('new channels arr', scope.channels)
 			})
 		}
 
@@ -65,7 +65,7 @@ angular.module('app')
 			networks.data.forEach(function(cur) {
 				scope.colorTable[cur.callsign] = cur.color
 			})
-			console.log('color table : ', scope.colorTable)
+			// console.log('color table : ', scope.colorTable)
 		})
 
 	}])

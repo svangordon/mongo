@@ -19,12 +19,14 @@ body
 
 .tv-guide-container
 	position relative
-	left 15vw
+	left 50%
+	transform: translate(-50%);
 
 .inactive-container
 	display inline-block
 
 .tooltip-div // For reasons beyond my comprehension, this breaks if the class name is 'tooltip' instead of 'tooltip-div'.  Something to do with ng, i think, but i'm not sure
+// now that I know what i'm doing, the reason is almost certainly that bootstrap has a built in tooltip class
 	width : 100px
 	height : 64px
 	font-size 60%
@@ -137,7 +139,7 @@ body
 	&-container
 		display inline-flex
 		position: absolute;
-		left: -5%
+		left: -10%
 		height 100px
 		background-color white
 		line-height 100px
