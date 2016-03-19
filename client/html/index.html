@@ -110,13 +110,11 @@
 				</div>
 
 				<div class="network-row">
-					<div class="stations-list" ng-click="addNetworks = !addNetworks; log(addNetworks)" >
-						<div class="network-block">
-							<span class="glyphicon glyphicon-plus"></span>
-						</div>
+					<div class="stations-list add-network-block" ng-click="addNetworks = !addNetworks; log(addNetworks)" >
+						<span class="glyphicon glyphicon-plus" ng-show="!addNetworks"></span>
 					</div>
 					<!-- <div class="inactive-container" ng-show="true"> -->
-					<div class="inactive-container" ng-show="addNetworks">
+					<div class="inactive-container" ng-show="addNetworks" ng-click="addNetworks = false">
 						<div class="network-block pull-left" ng-repeat="network in networks | filter : activeNetworks.isInactive" class="network-block-add" ng-style="{'background' : 'url('+network.logo+') '+network.color + ' center / auto 50px no-repeat', 'background-color' : network.color}" ng-click="activeNetworks.add(network.callsign); addNetworks = false">
 						</div>
 					</div>
