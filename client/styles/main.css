@@ -18,6 +18,7 @@ body {
 }
 .tv-guide-container {
   position: relative;
+  left: 15vw;
 }
 .inactive-container {
   display: inline-block;
@@ -143,7 +144,9 @@ body {
   font-size: xx-large;
 }
 .move-schedule-container {
-  display: flex;
+  display: inline-flex;
+  position: absolute;
+  left: -5%;
   height: 100px;
   background-color: #fff;
   line-height: 100px;

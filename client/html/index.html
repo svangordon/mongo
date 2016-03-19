@@ -64,17 +64,17 @@
 			</div>
 		</div>
 
-	<div class="container tv-guide-container" ng-controller="guideViewController">
+	<div class="tv-guide-container" ng-controller="guideViewController">
 		<div ng-controller="tooltipController" ng-show="isActiveCell()" ng-mouseleave="hover.resetActive(); logActiveOnExit()" ng-mousemove="hoverHandler($event.offsetX)" class="tooltip-div" ng-style="{'top' : getTop() + 'px' , 'left' : getLeft() + 'px', 'width' : hover.activeCell.getDisplayWidth()}">
 			<p ng-bind="hover.getTitle()"></p>
 			<p ng-bind="hover.activeCell.desc"></p>
 		</div>
 		<div class="row">
-			<div class="col-xs-1 move-schedule-container">
+			<!-- <div class="move-schedule-container">
 				<span class="glyphicon glyphicon-chevron-left move-schedule move-schedule-left" aria-hidden="true" ng-click="slideState.incrementLeft(); schedule.rewind()"></span>
 				<span class="glyphicon glyphicon-chevron-right move-schedule move-schedule-right pull-right" aria-hidden="true" ng-click="slideState.incrementRight(); schedule.advance()"></span>
-			</div>
-			<div class="col-xs-10 time-bar" ng-controller="timeBarController">
+			</div> -->
+			<div class="time-bar" ng-controller="timeBarController">
 				<div class="days-bar">
 					<div class="day-block btn btn-primary" ng-repeat="day in schedule.days" ng-bind="day.format('ddd MMM DD')" ng-click="schedule.goToDay(day)" ng-class="{'btn-danger' : $index == 2}">
 
