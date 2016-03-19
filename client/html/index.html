@@ -70,10 +70,10 @@
 			<p ng-bind="hover.activeCell.desc"></p>
 		</div>
 		<div class="row">
-			<!-- <div class="move-schedule-container">
+			<div class="move-schedule-container">
 				<span class="glyphicon glyphicon-chevron-left move-schedule move-schedule-left" aria-hidden="true" ng-click="slideState.incrementLeft(); schedule.rewind()"></span>
 				<span class="glyphicon glyphicon-chevron-right move-schedule move-schedule-right pull-right" aria-hidden="true" ng-click="slideState.incrementRight(); schedule.advance()"></span>
-			</div> -->
+			</div>
 			<div class="time-bar" ng-controller="timeBarController">
 				<div class="days-bar">
 					<div class="day-block btn btn-primary" ng-repeat="day in schedule.days" ng-bind="day.format('ddd MMM DD')" ng-click="schedule.goToDay(day)" ng-class="{'btn-danger' : $index == 2}">
