@@ -147,7 +147,7 @@ body {
 .move-schedule-container {
   display: inline-flex;
   position: absolute;
-  left: -10%;
+  left: 1000px;
   height: 100px;
   background-color: #fff;
   line-height: 100px;
