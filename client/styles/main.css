@@ -19,6 +19,9 @@ body {
 .tv-guide-container {
   position: relative;
 }
+.inactive-networks-container {
+  display: inline-block;
+}
 .tooltip-div {
   width: 100px;
   height: 64px;
@@ -73,7 +76,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 64px;
-  width: 100%;
+  width: 120px;
 }
 .active-network {
   background-color: #f00;

@@ -20,7 +20,10 @@ body
 .tv-guide-container
 	position relative
 
-.tooltip-div // For reasons beyond my comprehension, this breaks if the class name is 'tooltip' instead of 'tooltip-div'.  Something to do with ng, i think, but i'm not sure 
+.inactive-networks-container
+	display inline-block
+
+.tooltip-div // For reasons beyond my comprehension, this breaks if the class name is 'tooltip' instead of 'tooltip-div'.  Something to do with ng, i think, but i'm not sure
 	width : 100px
 	height : 64px
 	font-size 60%
@@ -55,7 +58,7 @@ body
 	&-block
 		position relative
 		padding 0
-		height 64px	
+		height 64px
 		&-add
 			display inline-block
 			margin-right 5px
@@ -71,7 +74,7 @@ body
 	justify-content center
 	align-items center
 	height 64px // Hard coding this bc i'm tired.  I could probably make it more reactive, but whatever
-	width 100%
+	width 120px
 .active-network
 	background-color red
 .inactive-network
@@ -116,7 +119,7 @@ body
 		width 60px // I'm hard coding this because it's easier.  If at some point I change the minperpx later adjust this
 		height 20px
 		border-right 1px solid black
-	
+
 .move-schedule
 	font-size xx-large
 	&-container
@@ -125,7 +128,7 @@ body
 		background-color white
 		line-height 100px
 		align-items center
-		
+
 .emission-block
 	position relative
 	padding 0
@@ -157,7 +160,7 @@ body
 		z-index 40
 
 .current-time-marker
-	border-left 2px solid white	
+	border-left 2px solid white
 	height 350px
 	display inline-block
 	position absolute
