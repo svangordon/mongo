@@ -5,8 +5,11 @@ var ajax = require('ajax')
 var mongoose = require('mongoose')
 require('mongoose-moment')(mongoose);
 var apiRoutes = require('./api_routes.js')
+var config = require('./config.js')
 
-mongoose.connect('mongodb://localhost:27017/guignol')
+// connect to mongodb
+var mUrl = config.ENV === 'local' ? config.MROUTE : 'mongodb://localhost:27017/guignol'
+mongoose.connect(mUrl)
 
 var express = require('express')
   , app = express()

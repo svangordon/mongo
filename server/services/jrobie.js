@@ -13,11 +13,13 @@ var mongoose = require('mongoose')
 var networks = require('../data/networks.json')
 var db = require('../models.js')
 var getFile = require('../utilities/getBlebFile.js')
+var config = require('./config.js')
 
 // =====================
 // Connect to Mongoose
 // =====================
-mongoose.connect('mongodb://localhost/guignol')
+var mUrl = config.ENV === 'local' ? config.MROUTE : 'mongodb://localhost:27017/guignol'
+mongoose.connect(mUrl)
 
 // Once verything works, put everything in the callback
 var blebJob = new CronJob('00 30 00 * * *', function () {
@@ -65,12 +67,12 @@ function structuredPull (urls) {
 		clearInterval(interval);
 		console.log('interval ended')
 	  }
-	}, 10000);	
+	}, 10000);
 }
 
 
 
-	
+
 
 
 

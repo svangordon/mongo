@@ -7,14 +7,15 @@ var fs = require('fs')
 var mongoose = require('mongoose')
 var util = require('util')
 var moment = require('moment')
-// require('mongoose-moment')(mongoose);
+var config = require('./config.js')
 
 
 // Setup parser \\
 var parser = new xml2js.Parser({explicitArray : false})
 
 // Setup mongo \\
-mongoose.connect('mongodb://localhost/guignol')
+var mUrl = config.ENV === 'local' ? config.MROUTE : 'mongodb://localhost:27017/guignol'
+mongoose.connect(mUrl)
 var db = mongoose.connection;
 var Days = require('../models/daySchema')
 
@@ -24,7 +25,7 @@ function saveXmlFile (fileName) {
 		if (err) throw err
 		parser.parseString(data, function (err, results) {
 			if (err) throw err
-			
+
 			// Set some of the params \\
 				// results = results.channel;
 				var networkCallsign = results.channel.$.id
@@ -103,4 +104,3 @@ function saveXmlFile (fileName) {
 }
 saveXmlFile('./data/bbc1.xml')
 saveXmlFile('./data/bbc2.xml')
-

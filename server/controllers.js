@@ -4,14 +4,15 @@ var express = require('express')
   , router = express.Router()
   , moment = require('moment')
   , request = require('request')
-  , db = require('./models')
+  , db = require('./models.js')
 
   module.exports = {
   	day : {
   		all : function (req, res) {
-  			console.log('getting all days')
+  			console.log('getting all days!')
   			db.Day.find({}, function (err, days) {
-  				res.json(days)
+          if (err) throw err;
+          res.json(days)
   			})
   		},
   		upsert : function (req, res) {
@@ -26,7 +27,7 @@ var express = require('express')
   		},
   		data : function (req, res) {
   			console.log('getting day(s)')
-  			var dayId = req.params.id  			
+  			var dayId = req.params.id
   			db.Day.find({_id : dayId}, function (err, days) {
   				res.json(days)
   			})
