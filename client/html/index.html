@@ -94,7 +94,7 @@
 				<div class="guide-view viewport" ng-controller="emissionsController" ng-style="{'height' : (activeNetworksNumber() + 1) * 64 + 'px'}">
 
 					<div class="emission-row" ng-repeat="channel in channels"
-						ng-style="{'background-color' : colorTable[channel.callsign], 'name' : channel.callsign}">
+						ng-style="{'background-color' : colorTable[channel.callsign], 'name' : channel.callsign}" >
 							<div class="stations-list" >
 								<div class="network-block" ng-style="{'background' : 'url(' + getAttr(channel.callsign, 'logo') + ') ' + getAttr(channel.callsign, 'color') + ' center / auto 50px no-repeat', 'background-color' : getAttr(channel.callsign, 'color')}" ng-mouseenter="network.hover = true" ng-mouseleave="network.hover = false">
 									<span class="glyphicon glyphicon-remove remove-network" ng-show="network.hover" ng-click="removeNetwork(network.callsign); $event.stopPropagation(); log(activeNetworks.networks)"></span>
@@ -103,8 +103,8 @@
 								</div>
 							</div>
 							<div class="emission-container">
-								<div class="emission-block pull-left" ng-repeat="emission in channel.emissions | inViewFilter : schedule " ng-style="{'background-color' : colorTable[channel.callsign] , width : relBlockWidth(emission.start, emission.end) + 'px'}" ng-mousemove="hover.setActive(emission)" ng-class="{'active-cell': hover.testActive(emission)}">
-									<div class="emission-block-content" ng-bind="emission.title"></div>
+								<div class="emission-block pull-left" ng-repeat="emission in channel.emissions | inViewFilter : schedule " ng-style="{'background-color' : colorTable[channel.callsign] , width : relBlockWidth(emission.start, emission.end) + 'px'}" ng-mousemove="hover.setActive(emission)" ng-class="{'active-cell': hover.testActive(emission), 'invert-text' : channel.callsign === 'bbc4'}">
+									<div class="emission-block-content" ng-class="{'invert-text' : channel.callsign === 'bbc4'}" ng-bind="emission.title"></div>
 								</div>
 							</div>
 					</div>
