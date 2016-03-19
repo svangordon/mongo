@@ -20,7 +20,7 @@ body
 .tv-guide-container
 	position relative
 
-.inactive-networks-container
+.inactive-container
 	display inline-block
 
 .tooltip-div // For reasons beyond my comprehension, this breaks if the class name is 'tooltip' instead of 'tooltip-div'.  Something to do with ng, i think, but i'm not sure
@@ -41,10 +41,19 @@ body
 	overflow hidden
 	// minimum-height 1072px
 	.emission-row
+		display: inline-flex;
+		position: relative;
+		margin-left: 0
+		margin-right: 0
 		height 64px
 		overflow hidden
+	&-container
+		position: relative;
+		left: -15px
 
 .stations-list
+	display: inline-block;
+	width 120px
 	padding 0
 
 .guide-view
@@ -56,9 +65,11 @@ body
 
 .network
 	&-block
-		position relative
+		// position relative
 		padding 0
 		height 64px
+		width 120px
+		display: inline-block
 		&-add
 			display inline-block
 			margin-right 5px
@@ -137,6 +148,9 @@ body
 	font-size 60%
 	border-right solid black 1px
 	text-overflow ellipsis
+	&-container
+		position: relative;
+		left: 15px
 	&-content
 		padding-left 5px
 		color white

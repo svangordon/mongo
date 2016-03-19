@@ -19,7 +19,7 @@ body {
 .tv-guide-container {
   position: relative;
 }
-.inactive-networks-container {
+.inactive-container {
   display: inline-block;
 }
 .tooltip-div {
@@ -40,10 +40,20 @@ body {
   overflow: hidden;
 }
 .viewport .emission-row {
+  display: inline-flex;
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
   height: 64px;
   overflow: hidden;
 }
+.viewport-container {
+  position: relative;
+  left: -15px;
+}
 .stations-list {
+  display: inline-block;
+  width: 120px;
   padding: 0;
 }
 .guide-view {
@@ -54,9 +64,10 @@ body {
   background-color: #808080;
 }
 .network-block {
-  position: relative;
   padding: 0;
   height: 64px;
+  width: 120px;
+  display: inline-block;
 }
 .network-block-add {
   display: inline-block;
@@ -146,6 +157,10 @@ body {
   font-size: 60%;
   border-right: solid #000 1px;
   text-overflow: ellipsis;
+}
+.emission-block-container {
+  position: relative;
+  left: 15px;
 }
 .emission-block-content {
   padding-left: 5px;
