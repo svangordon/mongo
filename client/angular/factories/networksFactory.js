@@ -12,7 +12,7 @@ angular.module('app')
 			return http.get('networks/' + networkName)
 				.then( function (res) {
 					return res
-				}) 
+				})
 		}
 
 		function colorTable (networkName) {
@@ -37,6 +37,7 @@ angular.module('app')
 			};
 			this.isActive = (function(network) {return this.networks.indexOf(network.callsign) !== -1 }).bind(this);
 			this.isInactive = (function(network) {return !this.isActive(network)} ).bind(this)
+			this.length = (function() {return this.networks.length}).bind(this)
 		}
 
 
@@ -51,5 +52,3 @@ angular.module('app')
 		}
 
 	}])
-
-

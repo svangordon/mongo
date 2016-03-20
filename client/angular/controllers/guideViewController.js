@@ -16,8 +16,11 @@ angular.module('app')
 		}
 
 		scope.timeBarHeight = function () {
-			return 64 // once this is figured out, have it return it's original value or whatever
-			return scope.networks.filter(cur => cur.active === true).length * 64
+			// console.log('scope.networks', networks.activeNetworks.length())
+			return 64 * networks.activeNetworks.length() // once this is figured out, have it return it's original value or whatever
+			// TODO: I have no idea what the aboce comment means -- I suspect that this algorithim below
+			// returns a bad value, or something. Or maybe something else was being tested, and this never got reverted?
+			// return scope.networks.filter(cur => cur.active === true).length * 64
 		}
 
 		scope.textState = {
@@ -56,12 +59,12 @@ angular.module('app')
 
 
 		// Holding on to this code until later.  May be useful?
-		// // // // // // // // // // // 
+		// // // // // // // // // // //
 		// // emission.hoverHandler($event.offsetX, emission.getDisplayWidth(schedule.firstHour(), schedule.lastHour(), minPerPx))
 		// scope.hoverHandler = function (offset, cellWidth) {
 		// 	// console.log(offset,cellWidth)
 		// 	if (offset > cellWidth) {
-		// 		scope.activeCell = null; 
+		// 		scope.activeCell = null;
 		// 	}
 		// }
 
